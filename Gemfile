@@ -5,6 +5,11 @@ source 'http://rubygems.org'
 gem "middleman", "~> 3.3.5"
 gem "middleman-blog", "~> 3.5.3"
 gem 'rack-contrib'
+
+gem 'bitters'
+gem 'bourbon'
+gem 'neat'
+
 # For feed.xml.builder
 gem "builder", "~> 3.0"
 
