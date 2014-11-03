@@ -1,5 +1,10 @@
 @charset "utf-8";
 
 @import "bourbon";
-@import "base/base";   /* Bitters needs to be imported before Neat */
+@import "base/base"; 
 @import "neat";
+
+.hero {
+  text-align: center;
+  font-size: 7em;
+}

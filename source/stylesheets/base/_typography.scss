@@ -1,3 +1,31 @@
+@font-face {
+  font-family: 'CooperHewitt';
+  src: url('/fonts/CooperHewitt-Book.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CooperHewitt';
+  src: url('/fonts/CooperHewitt-BookItalic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'CooperHewitt';
+  src: url('/fonts/CooperHewitt-Semibold.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CooperHewitt';
+  src: url('/fonts/CooperHewitt-Bold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   background-color: $base-background-color;
@@ -5,6 +33,8 @@ body {
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
+  font-weight: normal;
+  font-style: normal;
 }
 
 h1,
