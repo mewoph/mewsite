@@ -5,10 +5,15 @@
 @import "neat";
 
 body {
+  @include outer-container;
+  @include clearfix;
+
   padding: $gutter;
+
 }
 
 .hero {
   @include outer-container;
   text-align: center;
 }
+
