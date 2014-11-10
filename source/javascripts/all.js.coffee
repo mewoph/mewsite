@@ -1,5 +1,5 @@
 $ ->
-  $('.hero').flowtype
+  $('h1').flowtype
     fontRatio: 10
 
   # navbar
