@@ -1,6 +1,4 @@
 $ ->
-  $('h1').flowtype
-    fontRatio: 10
 
   # navbar
   menu = $('.centered-navigation-menu');
