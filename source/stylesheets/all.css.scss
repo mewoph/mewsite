@@ -17,3 +17,22 @@ body {
   text-align: center;
 }
 
+.centered-navigation .nav-link:first-child {
+  margin-left: 0em;
+}
+.centered-navigation {
+  .active a {
+    color: transparentize($base-font-color, 0.5) !important;
+  }
+}
+
+.cv {
+  .info-section {
+    padding: $gutter 0;
+  }
+  .basic-info {
+    .name {
+      margin-bottom: $gutter/2;
+    }
+  }
+}

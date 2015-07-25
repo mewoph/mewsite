@@ -1,0 +1,91 @@
+{
+  "name": "Varissara Mew Ophaswongse",
+  "address": "2235 3rd Street, San Francisco CA 94107",
+  "email": "mewoph@icloud.com",
+  "phone": "(267) 230 - 1871",
+  "skills": [
+    {
+      "programming": "Ruby on Rails, Node.js, Java, C, HTML, CSS, Sass, Javascript, Coffeescript",
+      "design": "Wireframing, responsive web design, designing in browser/code, A/B testing",
+      "tools": "Git, AWS S3/EC2, FFmpeg, Middleman"
+    }
+  ],
+  "education": [
+    {
+      "university": "University of Pennsylvania",
+      "degree": "Master of Computer and Information Technology",
+      "grade": "GPA: 3.53/4.00",
+      "location": "Philadelphia, PA",
+      "coursework": "Software Engineering, Databases, Entrepreneurship, Web Design",
+      "date": "Dec 2013"
+    },
+    {
+      "university": "University of Cambridge",
+      "degree": "M.Phil in Philosophy",
+      "location": "Cambridge, UK",
+      "coursework": "Aesthetics, Philosophy of Technology",
+      "date": "Jul 2012"
+    },
+    {
+      "university": "University of Washington",
+      "degree": "Bachelor of Arts, Magna Cum Laude",
+      "grade": "GPA: 3.89/4.00",
+      "location": "Seattle, WA",
+      "majors": "Philosophy (Honors), Comparative Literature, and Cinema Studies",
+      "date": "Jun 2011"
+    }
+  ],
+  "employment": [
+    {
+      "employer": "Depict",
+      "position": "Full-Stack Engineer",
+      "location": "San Francisco, CA",
+      "date": "Feb 2014 - Present",
+      "duties": [
+        "Created Sass/Coffeescript framework and styleguide for Ruby on Rails web application",
+        "Implemented artwork casting system from web application to Chromecast and to Depict Frame",
+        "Built and intergrated a system to transcode and stream 4k artworks"
+      ]
+    }, 
+    {
+      "employer": "MAQE",
+      "position": "Intern Web Developer",
+      "location": "Bangkok, Thailand",
+      "date": "May - Aug 2013",
+      "duties": [
+        "Created moodboards, wireframes and designed with code",
+        "Developed ready-for-launch web application using Ruby on Rails and AJAX"
+      ]
+    },
+    {
+      "employer": "UNESCO",
+      "position": "Culture Unit Intern",
+      "location": "Bangkok, Thailand",
+      "date": "Jun - Oct 2011",
+      "duties": [
+        "Designed graphics and exhibition content for Luang Prabang Film Festival",
+        "Organized workshops on Thailand’s Creative Economy"
+      ]
+    },
+    {
+      "employer": "UW Department of Philosophy",
+      "position": "Writing Center Tutor",
+      "location": "Seattle, WA",
+      "date": "Aug 2010 - Jun 2011",
+      "duties": [
+        "Assisted undergraduates in writing philosophy papers",
+        "Initiated in-class presentations on writing in philosophy"
+      ]
+    },
+    {
+      "employer": "Seattle International Film Festival",
+      "position": "Intern Videographer",
+      "location": "Seattle, WA",
+      "date": "May 2009 - Jun 2010",
+      "duties": [
+        "Filmed and set up interviews and events during the festival"
+      ]
+    }
+  ],
+  "projects": []
+}
