@@ -1,4 +1,5 @@
 $ ->
+
   # navbar
   menu = $('.centered-navigation-menu');
   menuToggle = $('.centered-navigation-menu-button');
