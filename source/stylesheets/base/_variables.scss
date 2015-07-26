@@ -12,6 +12,9 @@ $h3-font-size: $base-font-size * 1.75;
 $h4-font-size: $base-font-size * 1.5;
 $h5-font-size: $base-font-size * 1.25;
 $h6-font-size: $base-font-size;
+$small-font-size: 0.8em;
+$normal-font-weight: 400;
+$bold-font-weight: 500;
 
 // Line height
 $base-line-height: 1.5;
@@ -38,6 +41,7 @@ $base-background-color: $white;
 // Font Colors
 $base-font-color: $dark-gray;
 $base-accent-color: $blue;
+$light-color: transparentize($base-font-color, 0.4);
 
 // Link Colors
 $base-link-color: $base-accent-color;

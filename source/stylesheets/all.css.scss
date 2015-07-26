@@ -1,22 +1,38 @@
 @charset "utf-8";
 
 @import "bourbon";
-@import "base/base"; 
+@import "base/base";
 @import "neat";
 
 body {
-  @include outer-container;
   @include clearfix;
-
   padding: $gutter;
-
+  ::-moz-selection {
+    color: $white;
+    background: $base-font-color;
+  }
+  ::selection {
+    color: $white;
+    background: $base-font-color;
+  }
 }
 
-.hero {
-  @include outer-container;
-  text-align: center;
+figure {
+  margin: 0;
 }
 
+.light {
+  color: $light-color;
+}
+
+.link {
+  color: $base-font-color;
+  cursor: pointer;
+  @include transition(all 1s);
+  &:hover {
+    color: $light-color;
+  }
+}
 .centered-navigation .nav-link:first-child {
   margin-left: 0em;
 }
@@ -26,13 +42,102 @@ body {
   }
 }
 
-.cv {
-  .info-section {
-    padding: $gutter 0;
+.sidebar-wrapper {
+  .empty {
+    width: 100%;
+    height: 1px;
+  }
+  @include media($large-screen) {
+    @include span-columns(2);
+    .fixed {
+      position: fixed;
+    }
+  }
+}
+.cv-sidebar {
+  @include media($large-screen) {
+    width: 17vw;
+    position: fixed;
+  }
+  .logo {
+    width: 25%;
+    display: inline;
+  }
+  .logo-text {
+    width: 75%;
+    display: inline;
+    text-transform: uppercase;
+  }
+  .header {
+    width: 100%;
+    display: block;
   }
   .basic-info {
     .name {
+      font-weight: $bold-font-weight;
       margin-bottom: $gutter/2;
+      text-transform: uppercase;
+    }
+    .contact-group {
+      font-size: $small-font-size;
+      margin-bottom: $gutter/2;
+    }
+    .social-icons {
+      .fa {
+        font-size: 1.25em;
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+.cv-content {
+  @include media($large-screen) {
+    @include span-columns(8);
+  }
+  .info-section {
+    margin-bottom: $gutter;
+    font-size: $small-font-size;
+    .section-header {
+      text-transform: uppercase;
+      font-weight: $bold-font-weight;
+    }
+  }
+  .education, .work-experience {
+    .edu-item, .work-item {
+      margin-bottom: $gutter/2;
+      position: relative;
+      .uni-name, .degree, .grade, 
+      .employer-name, .position {
+        display: inline;
+      }
+      .degree, .position {
+        font-style: italic;
+      }
+      .uni-name, .employer-name {
+        font-weight: $bold-font-weight;
+      }
+      .duties {
+        margin-left: 10px;
+        .duty-item {
+          text-indent: -5px;
+          &:before {
+            content: "-";
+            position: relative;
+            left: -5px;
+          }
+        }
+      }
+      .right-section {
+        display: none;
+        @include media($medium-screen) {
+          position: absolute;
+          top: 0;
+          right: $gutter;
+          text-align: right;
+          display: block;
+        }
+      }
     }
   }
 }

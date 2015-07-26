@@ -1,37 +1,45 @@
 {
   "name": "Varissara Mew Ophaswongse",
-  "address": "2235 3rd Street, San Francisco CA 94107",
+  "address": "2235 3rd Street",
+  "city": "San Francisco CA 94107",
   "email": "mewoph@icloud.com",
+  "site": "mewoph.com",
   "phone": "(267) 230 - 1871",
-  "skills": [
+  "skills":
     {
-      "programming": "Ruby on Rails, Node.js, Java, C, HTML, CSS, Sass, Javascript, Coffeescript",
-      "design": "Wireframing, responsive web design, designing in browser/code, A/B testing",
-      "tools": "Git, AWS S3/EC2, FFmpeg, Middleman"
+      "programming": "Ruby on Rails, Node, HTML, CSS, Sass, Javascript, Coffeescript, Java, C",
+      "design": "Wireframing, responsive design, designing in browser / code, AB testing",
+      "tools": "Git, AWS S3 / EC2, FFmpeg, Middleman, Adobe Photoshop / Illustrator / Typekit"
     }
-  ],
+  ,
   "education": [
     {
       "university": "University of Pennsylvania",
       "degree": "Master of Computer and Information Technology",
       "grade": "GPA: 3.53/4.00",
       "location": "Philadelphia, PA",
-      "coursework": "Software Engineering, Databases, Entrepreneurship, Web Design",
+      "details": {
+        "coursework": "Software Engineering, Databases, Entrepreneurship, Web Design"
+      },
       "date": "Dec 2013"
     },
     {
       "university": "University of Cambridge",
-      "degree": "M.Phil in Philosophy",
+      "degree": "M.Phil, Philosophy",
       "location": "Cambridge, UK",
-      "coursework": "Aesthetics, Philosophy of Technology",
+      "details": {
+        "research interests": "Aesthetics, Philosophy of Technology"
+      },
       "date": "Jul 2012"
     },
     {
       "university": "University of Washington",
-      "degree": "Bachelor of Arts, Magna Cum Laude",
+      "degree": "Bachelor of Arts",
       "grade": "GPA: 3.89/4.00",
       "location": "Seattle, WA",
-      "majors": "Philosophy (Honors), Comparative Literature, and Cinema Studies",
+      "details": {
+        "majors": "Philosophy (Honors), Comparative Literature, and Cinema Studies"
+      },
       "date": "Jun 2011"
     }
   ],
@@ -42,9 +50,10 @@
       "location": "San Francisco, CA",
       "date": "Feb 2014 - Present",
       "duties": [
-        "Created Sass/Coffeescript framework and styleguide for Ruby on Rails web application",
-        "Implemented artwork casting system from web application to Chromecast and to Depict Frame",
-        "Built and intergrated a system to transcode and stream 4k artworks"
+        "Created a front-end framework and styleguide for Ruby on Rails web application and applied the framework to site redesign",
+        "Implemented artwork casting system for web application, Chromecast and Depict Frame",
+        "Built a system to transcode and stream 4k artworks",
+        "Developed a prototype server for adaptive bitrate streaming"
       ]
     }, 
     {
@@ -87,5 +96,7 @@
       ]
     }
   ],
-  "projects": []
+  "linkedin": "https://www.linkedin.com/pub/mew-ophaswongse/3a/699/871",
+  "instagram": "https://instagram.com/mewoph/",
+  "github": "https://github.com/mewoph"
 }

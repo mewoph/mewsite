@@ -1,0 +1,32 @@
+<div class="empty"></div>
+<header class="cv-sidebar">
+  <div class="logo-container">
+    <img src="/images/logo.svg" class="logo">
+  </div>
+  <section class="basic-info">
+    <h4 class="name">Varissara Mew Ophaswongse</h4>
+    <div class="contact-group">
+      <div class="address"><%= data.me.address %></div>
+      <div class="address-city"><%= data.me.city %></div>
+      <div class="phone"><%= data.me.phone %></div>
+    </div>
+    <div class="contact-group">
+      <% link_to "mailto: #{data.me.email}" do %>
+        <div class="link email"><%= data.me.email %></div>
+      <% end %>
+      <div class="link site"><%= data.me.site %></div>
+    </div>
+    <div class="contact-group social-icons">
+      <% link_to data.me.instagram do %>
+        <i class="link fa fa-instagram"></i>
+      <% end %>
+      <% link_to data.me.github do %>
+        <i class="link fa fa-github"></i>
+      <% end %>
+      <% link_to data.me.linkedin do %>
+        <i class="link fa fa-linkedin-square"></i>
+      <% end %>
+      <i class="link fa fa-download"></i>
+    </div>
+  </section>
+</header>

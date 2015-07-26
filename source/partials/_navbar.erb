@@ -1,15 +1,15 @@
-<div class="top-logo">
-  <img src="/images/logo.svg"><h1>mewoph</h1>
-</div>
-
-<header class="centered-navigation">
-  <div class="centered-navigation-wrapper">
-    <a href="" class="centered-navigation-menu-button">MENU</a>
-    <ul class="centered-navigation-menu">
-      <li class="nav-link"><a href="javascript:void(0)">words</a></li>
-      <li class="nav-link"><a href="javascript:void(0)">images</a></li>
-      <li class="nav-link"><a href="javascript:void(0)">code</a></li>
-      <li class="nav-link active"><a href="javascript:void(0)">about</a></li>
-    </ul>
-  </div>
+<header class="side-navigation">
+  <img src="/images/logo.svg" class="logo">
+  <section class="basic-info">
+    <h4 class="name">Varissara <span class="light">Mew</span> Ophaswongse</h4>
+    <div class="contact-group">
+      <div class="address"><%= data.me.address %></div>
+      <div class="address-city"><%= data.me.city %></div>
+      <div class="phone"><%= data.me.phone %></div>
+    </div>
+    <div class="contact-group">
+      <div class="email"><%= data.me.email %></div>
+      <div class="site"><%= data.me.site %></div>
+    </div>
+  </section>
 </header>
