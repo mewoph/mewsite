@@ -46,6 +46,11 @@
             <%= edu.details[detail_type] %>
           <% end %>
         </div>
+        <ul class="projects">
+          <% edu.projects.each do |project| %>
+            <li class="project-item"><%= project %></li>
+          <% end %>
+        </ul>
         <div class="right-section">
           <div class="location"><%= edu.location %></div>
           <div class="date"><%= edu.date %></div>

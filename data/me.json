@@ -7,7 +7,7 @@
   "phone": "(267) 230 - 1871",
   "skills":
     {
-      "programming": "Ruby on Rails, Node, HTML, CSS, Sass, Javascript, Coffeescript, Java, C",
+      "programming": "Ruby on Rails, Node, HTML, CSS, Sass, Javascript, Coffeescript, Java, C, SQL",
       "design": "Wireframing, responsive design, designing in browser / code, AB testing",
       "tools": "Git, AWS S3 / EC2, FFmpeg, Middleman, Adobe Photoshop / Illustrator / Typekit"
     }
@@ -21,7 +21,11 @@
       "details": {
         "coursework": "Software Engineering, Databases, Entrepreneurship, Web Design"
       },
-      "date": "Dec 2013"
+      "date": "Dec 2013",
+      "projects": [
+        "Created a server-client chat program with RSA encryption",
+        "Created a program that generates assembly language instructions from C source code"
+      ]
     },
     {
       "university": "University of Cambridge",
@@ -30,7 +34,10 @@
       "details": {
         "research interests": "Aesthetics, Philosophy of Technology"
       },
-      "date": "Jul 2012"
+      "date": "Jul 2012",
+      "projects": [
+        "Master's Thesis: The Trouble with Perfection – Kitsch and its Vicissitudes"
+      ]
     },
     {
       "university": "University of Washington",
@@ -40,7 +47,10 @@
       "details": {
         "majors": "Philosophy (Honors), Comparative Literature, and Cinema Studies"
       },
-      "date": "Jun 2011"
+      "date": "Jun 2011",
+      "projects": [
+        "Senior Thesis: Authorship 2.0 and the Deadlocks of Intellectual Property"
+      ]
     }
   ],
   "employment": [
