@@ -1,0 +1,34 @@
+<% content_for :title, "mewoph.com" %>
+<div class="sidenav-wrapper">
+  <div class="empty"></div>
+  <header class="sidebar">
+    <div class="logo-container">
+      <img src="/images/logo.svg" class="logo">
+    </div>
+    <section class="basic-info">
+      <h4 class="name">mewoph.com</h4>
+      <div class="menu-group">
+        <div class="menu-item link">CODE</div>
+        <div class="menu-item link">WORDS</div>
+        <div class="menu-item link">IMAGES</div>
+        <% link_to "/cv.html" do %>
+          <div class="menu-item link">CV</div>
+        <% end %>
+      </div>
+      <div class="contact-group social-icons">
+        <% link_to data.me.instagram do %>
+          <i class="link fa fa-instagram"></i>
+        <% end %>
+        <% link_to data.me.github do %>
+          <i class="link fa fa-github"></i>
+        <% end %>
+        <% link_to data.me.linkedin do %>
+          <i class="link fa fa-linkedin-square"></i>
+        <% end %>
+        <% link_to "mailto: #{data.me.email}" do %>
+          <i class="link fa fa-envelope-o"></i>
+        <% end %>
+      </div>
+    </section>
+  </header>
+</div>

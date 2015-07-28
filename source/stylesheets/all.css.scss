@@ -21,6 +21,10 @@ figure {
   margin: 0;
 }
 
+button {
+  @include transition(all 1s);
+}
+
 .light {
   color: $light-color;
 }
@@ -42,7 +46,7 @@ figure {
   }
 }
 
-.sidebar-wrapper {
+.sidebar-wrapper, .sidenav-wrapper {
   .empty {
     width: 100%;
     height: 1px;
@@ -54,7 +58,7 @@ figure {
     }
   }
 }
-.cv-sidebar {
+.cv-sidebar, .sidebar {
   @include media($large-screen) {
     width: 17vw;
     position: fixed;
@@ -78,9 +82,12 @@ figure {
       margin-bottom: $gutter/2;
       text-transform: uppercase;
     }
-    .contact-group {
+    .contact-group, .menu-group {
       font-size: $small-font-size;
       margin-bottom: $gutter/2;
+      .menu-item {
+        font-weight: $bold-font-weight;
+      }
     }
     .social-icons {
       .fa {
@@ -139,5 +146,45 @@ figure {
         }
       }
     }
+  }
+}
+
+
+.home-content {
+  @include media($large-screen) {
+    @include span-columns(8);
+  }
+  .info-section {
+    margin-bottom: $gutter;
+    .section-header {
+      text-transform: uppercase;
+      font-weight: $bold-font-weight;
+      margin-bottom: $gutter/2;
+    }
+  }
+}
+
+.image-tile-item {
+  @include outer-container();
+  @include clearfix();
+  padding: $gutter/2 0;
+  border-bottom: $base-border;
+  .tile-info {
+    @include media($large-screen) {
+      @include span-columns(6);
+    }
+  }
+  .image-tile {
+    @include media($large-screen) {
+      @include span-columns(4);
+      height: 200px;
+    }
+  }
+  .description {
+    margin: $gutter 0;
+  }
+  .read-btn {
+    display: block;
+    margin-top: $gutter/2;
   }
 }
