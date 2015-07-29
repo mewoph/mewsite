@@ -7,8 +7,14 @@
     <title><%= yield_content(:title) %></title>
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <%= javascript_include_tag "all" %>
     <%= stylesheet_link_tag "all" %>
+
+    <!-- slick carousel !-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+
+    <%= javascript_include_tag "all" %>
+    
   </head>
   <body>
     

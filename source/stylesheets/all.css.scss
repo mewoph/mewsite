@@ -136,13 +136,17 @@ button {
         }
       }
       .right-section {
-        display: none;
+        display: block;
+        position: relative;
+        color: $light-color;
         @include media($medium-screen) {
           position: absolute;
           top: 0;
           right: $gutter;
           text-align: right;
           display: block;
+          margin-top: 0;
+          color: $base-font-color;
         }
       }
     }
@@ -155,11 +159,14 @@ button {
     @include span-columns(8);
   }
   .info-section {
-    margin-bottom: $gutter;
+    margin-bottom: $gutter*3;
     .section-header {
       text-transform: uppercase;
       font-weight: $bold-font-weight;
-      margin-bottom: $gutter/2;
+      // margin-bottom: $gutter/2;
+    }
+    .section-intro {
+      margin-bottom: $gutter;
     }
   }
 }
@@ -181,10 +188,39 @@ button {
     }
   }
   .description {
-    margin: $gutter 0;
+    margin: $gutter/2 0;
   }
   .read-btn {
     display: block;
-    margin-top: $gutter/2;
+  }
+}
+
+.top-carousel {
+  position: relative;
+  margin-bottom: $gutter*2;
+  .carousel-item {
+    height: 350px;
+    background: $dark-gray;
+    color: $white;
+    margin-bottom: $gutter;
+  }
+  .slick-dots {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    li {
+      display: inline;
+      margin-right: 5px;
+      button {
+        border: 2px solid $base-font-color;
+        font-size: 0;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+      }
+    }
   }
 }

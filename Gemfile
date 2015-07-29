@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 gem "middleman", "~> 3.3.5"
-gem "middleman-blog", "~> 3.5.3"
+# gem "middleman-blog", "~> 3.5.3"
 gem 'rack-contrib'
 
 gem 'bitters'
@@ -13,7 +13,4 @@ gem 'font-awesome-sass'
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
-
-group :development do
-  gem 'middleman-livereload'
-end
+gem 'middleman-livereload'

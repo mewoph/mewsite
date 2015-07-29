@@ -1,9 +1,32 @@
 <%= partial "/partials/sidenav" %>
 <article class="home-content">
-  <section class="info-section">
-    <h4 class="section-header">WORDS</h4>
-    <%= partial "/partials/image-tile", locals: { image: "/images/word_tile1.jpg"} %>
-    <%= partial "/partials/image-tile", locals: { image: "/images/word_tile1.jpg"} %>
-    <%= partial "/partials/image-tile", locals: { image: "/images/word_tile1.jpg"} %>
-  </section>
-</article>
+
+	<%= partial "/partials/top-carousel" %>
+
+	<section class="info-section">
+		<h4 class="section-header">CODE</h4>
+		<p class="section-intro"><%= data.code.intro %></p>
+		<% data.code.items.each do |item| %>
+		<%= partial "partials/image-tile", locals: { 
+			image: item.image,
+			title: item.title,
+			subtitle: item.subtitle,
+			description: item.description,
+			link: item.link } %>
+			<% end %>
+	</section>
+
+		<section class="info-section">
+			<h4 class="section-header">WORDS</h4>
+			<p class="section-intro"><%= data.words.intro %></p>
+			<% data.words.items.each do |item| %>
+			<%= partial "partials/image-tile", locals: { 
+				image: item.image,
+				title: item.title,
+				subtitle: item.subtitle,
+				description: item.description,
+				link: item.link } %>
+				<% end %>
+			</section>
+
+		</article>

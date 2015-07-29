@@ -1,12 +1,9 @@
 $ ->
 
-  # navbar
-  menu = $('.centered-navigation-menu');
-  menuToggle = $('.centered-navigation-menu-button');
-  signUp = $('.sign-up');
-
-  $(menuToggle).on 'click', (e)->
-    e.preventDefault()
-    menu.slideToggle ()->
-      if menu.is ':hidden'
-        menu.removeAttr 'style'
+  $(".top-carousel").slick
+  	autoplay: true,
+  	arrows: false,
+  	pauseOnHover: true,
+  	pauseOnDotsHover: true,
+  	speed: 500,
+  	dots: true

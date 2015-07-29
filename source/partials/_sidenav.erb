@@ -16,13 +16,13 @@
         <% end %>
       </div>
       <div class="contact-group social-icons">
-        <% link_to data.me.instagram do %>
+        <% link_to data.me.instagram, target: "_blank" do %>
           <i class="link fa fa-instagram"></i>
         <% end %>
-        <% link_to data.me.github do %>
+        <% link_to data.me.github, target: "_blank" do %>
           <i class="link fa fa-github"></i>
         <% end %>
-        <% link_to data.me.linkedin do %>
+        <% link_to data.me.linkedin, target: "_blank" do %>
           <i class="link fa fa-linkedin-square"></i>
         <% end %>
         <% link_to "mailto: #{data.me.email}" do %>

@@ -1,11 +1,15 @@
 <div class="image-tile-item">
-  <figure class="image-tile" style="background: url('<%= image %>') no-repeat center/cover;"></figure>
-  <div class="tile-info">
-    <h5 class="header-info">The Fancy of the Contemplatives</h5>
-    <h5 class="header-info light">Art and the Absurd</h5>
-    <p class="description">An essay on art as way of life and life as raw materials of art
-      <button class="read-btn">Read</button>
-    </p>
+	<figure class="image-tile" style="background: url('<%= image %>') no-repeat center/cover;"></figure>
+	<div class="tile-info">
+		<h5 class="header-info"><%= title %></h5>
+		<h5 class="header-info light"><%= subtitle %></h5>
+		<p class="description"><%= description %></p>
 
-  </div>
+		<% unless link.blank? %>
+			<% link_to link, target: "_blank" do %>
+				<button class="read-btn">Read</button>
+			<% end %>
+		<% end %>
+		
+	</div>
 </div>
