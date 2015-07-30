@@ -202,7 +202,10 @@ button {
   position: relative;
   margin-bottom: $gutter*2;
   .carousel-item {
-    height: 350px;
+    height: 200px;
+    @include media($large-screen) {
+      height: 350px;
+    }
     background: $dark-gray;
     color: $white;
     margin-bottom: $gutter;
