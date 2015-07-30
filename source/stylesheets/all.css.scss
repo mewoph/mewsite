@@ -182,9 +182,12 @@ button {
     }
   }
   .image-tile {
+    border: $base-border;
+    height:  200px;
+    margin-bottom: $gutter/2;
     @include media($large-screen) {
       @include span-columns(4);
-      height: 200px;
+      margin-bottom: 0;
     }
   }
   .description {
@@ -203,6 +206,16 @@ button {
     background: $dark-gray;
     color: $white;
     margin-bottom: $gutter;
+    border: $base-border;
+  }
+  .project1 {
+    background: url('/images/carousel1.jpg') no-repeat center right/cover;
+  }
+  .project2 {
+    background: url('/images/carousel2.jpg') no-repeat center/cover;
+  }
+  .project3 {
+    background: url('/images/carousel3.jpg') no-repeat center/cover;
   }
   .slick-dots {
     position: absolute;
