@@ -63,7 +63,8 @@
         "Created a front-end framework and styleguide for Ruby on Rails web application and applied the framework to site redesign",
         "Implemented artwork casting system for web application, Chromecast and Depict Frame",
         "Built a system to transcode and stream 4k artworks",
-        "Developed a prototype server for adaptive bitrate streaming"
+        "Developed a prototype server for adaptive bitrate streaming",
+        "Built a custom CMS for Depict website"
       ]
     }, 
     {
@@ -73,7 +74,7 @@
       "date": "May - Aug 2013",
       "duties": [
         "Created moodboards, wireframes and designed with code",
-        "Developed ready-for-launch web application using Ruby on Rails and AJAX"
+        "Developed prototype web application using Ruby on Rails and AJAX"
       ]
     },
     {
@@ -108,5 +109,6 @@
   ],
   "linkedin": "https://www.linkedin.com/pub/mew-ophaswongse/3a/699/871",
   "instagram": "https://instagram.com/mewoph/",
-  "github": "https://github.com/mewoph"
+  "github": "https://github.com/mewoph",
+  "resume": "/ophaswongse_resume.pdf"
 }
