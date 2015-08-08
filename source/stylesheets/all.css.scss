@@ -52,7 +52,7 @@ button {
     height: 1px;
   }
   @include media($large-screen) {
-    @include span-columns(2);
+    @include span-columns(3);
     .fixed {
       position: fixed;
     }
@@ -104,7 +104,7 @@ button {
 
 .cv-content {
   @include media($large-screen) {
-    @include span-columns(8);
+    @include span-columns(9);
   }
   .info-section {
     margin-bottom: $gutter;
@@ -160,7 +160,7 @@ button {
 
 .home-content {
   @include media($large-screen) {
-    @include span-columns(8);
+    @include span-columns(9);
   }
   .info-section {
     margin-bottom: $gutter*3;
@@ -197,7 +197,7 @@ button {
       text-transform: uppercase;
     }
     @include media($large-screen) {
-      @include span-columns(6);
+      @include span-columns(7);
     }
   }
   .image-tile {
@@ -205,7 +205,7 @@ button {
     height:  200px;
     margin-bottom: $gutter/2;
     @include media($large-screen) {
-      @include span-columns(4);
+      @include span-columns(5);
       margin-bottom: 0;
     }
   }
@@ -226,12 +226,40 @@ button {
   }
   .image-tile-item {
     @include media($large-screen) {
-      @include span-columns(5);
+      @include span-columns(6);
       @include omega(2n);
       border-bottom: none;
     }
     .image-tile, .tile-info {
-      @include span-columns(10);
+      @include span-columns(12);
+      @include omega(n);
+    }
+    .tile-info {
+      margin-top: $gutter/2;
+    }    
+  }
+}
+
+.four-col {
+  @include outer-container();
+  @include clearfix();
+  border-bottom: $base-border;
+  @include media($large-screen) {
+    padding-bottom: $gutter*3;
+  }
+  .title {
+    font-weight: $bold-font-weight;
+    font-size: 1em;
+    margin-bottom: $gutter/2;
+  }
+  .image-tile-item {
+    @include media($large-screen) {
+      @include span-columns(3);
+      @include omega(4n);
+      border-bottom: none;
+    }
+    .image-tile, .tile-info {
+      @include span-columns(12);
       @include omega(n);
     }
     .tile-info {

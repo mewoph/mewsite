@@ -33,16 +33,13 @@
 
 	<section class="info-section" id="images-section">
 		<h4 class="section-header">IMAGES</h4>
-		<p class="section-intro"><%= data.words.intro %></p>
-		<div class="two-col">
-			<% data.words.items.each do |item| %>
-				<%= partial "partials/image-tile", locals: { 
+		<p class="section-intro"><%= data.images.intro %></p>
+		<div class="four-col">
+			<% data.images.items.each do |item| %>
+				<%= partial "partials/image-tile-small", locals: { 
 				image: item.image,
 				title: item.title,
-				subtitle: item.subtitle,
-				description: item.description,
-				link: item.link,
-				cta: item.cta } %>
+				link: item.link } %>
 			<% end %>
 		</div>
 	</section>

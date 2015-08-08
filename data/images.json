@@ -1,0 +1,24 @@
+{
+  "intro": "Before I learned how to code, I designed with Photoshop and Illustrator. Here are some of my graphic design works.",
+  "items": [{
+    "title": "Stories and Places",
+    "image": "/images/word_tile1.jpg",
+    "link": "link"
+  },
+  {
+    "title": "Layar Spread",
+    "image": "/images/word_tile1.jpg",
+    "link": "link"
+  },
+  {
+    "title": "Olympics Infographics",
+    "image": "/images/word_tile1.jpg",
+    "link": "link"
+  },
+  {
+    "title": "Cambridge Thai Night",
+    "image": "/images/word_tile1.jpg",
+    "link": "link"
+  }
+  ]
+}
