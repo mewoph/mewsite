@@ -86,7 +86,11 @@ button {
       font-size: $small-font-size;
       margin-bottom: $gutter/2;
       .menu-item {
+        @include transition(color 0.5s);
         font-weight: $bold-font-weight;
+      }
+      .active {
+        color: $light-color;
       }
     }
     .social-icons {
@@ -160,12 +164,24 @@ button {
   }
   .info-section {
     margin-bottom: $gutter*3;
+    padding-top: $gutter;
     .section-header {
       text-transform: uppercase;
       font-weight: $bold-font-weight;
-      // margin-bottom: $gutter/2;
+      @include media($large-screen) {
+        text-align: center;
+      }
     }
     .section-intro {
+      width: 100%;
+      text-align: left;
+      @include media($large-screen) {
+        width: 60%;
+        text-align: center;
+      }
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: $gutter/2;
       margin-bottom: $gutter;
     }
   }
@@ -174,7 +190,7 @@ button {
 .image-tile-item {
   @include outer-container();
   @include clearfix();
-  padding: $gutter/2 0;
+  padding: $gutter 0;
   border-bottom: $base-border;
   .tile-info {
     @include media($large-screen) {
@@ -198,45 +214,25 @@ button {
   }
 }
 
-.top-carousel {
-  position: relative;
-  margin-bottom: $gutter*2;
-  .carousel-item {
-    height: 200px;
+.two-col {
+  @include outer-container();
+  @include clearfix();
+  border-bottom: $base-border;
+  @include media($large-screen) {
+    padding-bottom: $gutter*3;
+  }
+  .image-tile-item {
     @include media($large-screen) {
-      height: 350px;
+      @include span-columns(5);
+      @include omega(2n);
+      border-bottom: none;
     }
-    background: $dark-gray;
-    color: $white;
-    margin-bottom: $gutter;
-    border: $base-border;
-  }
-  .project1 {
-    background: url('/images/carousel1.jpg') no-repeat center right/cover;
-  }
-  .project2 {
-    background: url('/images/carousel2.jpg') no-repeat center/cover;
-  }
-  .project3 {
-    background: url('/images/carousel3.jpg') no-repeat center/cover;
-  }
-  .slick-dots {
-    position: absolute;
-    bottom: 5px;
-    right: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    li {
-      display: inline;
-      margin-right: 5px;
-      button {
-        border: 2px solid $base-font-color;
-        font-size: 0;
-        width: 16px;
-        height: 16px;
-        border-radius: 50%;
-      }
+    .image-tile, .tile-info {
+      @include span-columns(10);
+      @include omega(n);
     }
+    .tile-info {
+      margin-top: $gutter/2;
+    }    
   }
 }

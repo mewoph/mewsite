@@ -1,9 +1,7 @@
 <%= partial "/partials/sidenav" %>
 <article class="home-content">
 
-	<%= partial "/partials/top-carousel" %>
-
-	<section class="info-section">
+	<section class="info-section" id="code-section">
 		<h4 class="section-header">CODE</h4>
 		<p class="section-intro"><%= data.code.intro %></p>
 		<% data.code.items.each do |item| %>
@@ -16,17 +14,34 @@
 			<% end %>
 	</section>
 
-	<section class="info-section">
+	<section class="info-section" id="words-section">
 		<h4 class="section-header">WORDS</h4>
 		<p class="section-intro"><%= data.words.intro %></p>
-		<% data.words.items.each do |item| %>
-		<%= partial "partials/image-tile", locals: { 
-			image: item.image,
-			title: item.title,
-			subtitle: item.subtitle,
-			description: item.description,
-			link: item.link } %>
+		<div class="two-col">
+			<% data.words.items.each do |item| %>
+				<%= partial "partials/image-tile", locals: { 
+				image: item.image,
+				title: item.title,
+				subtitle: item.subtitle,
+				description: item.description,
+				link: item.link } %>
 			<% end %>
+		</div>
+	</section>
+
+	<section class="info-section" id="images-section">
+		<h4 class="section-header">IMAGES</h4>
+		<p class="section-intro"><%= data.words.intro %></p>
+		<div class="two-col">
+			<% data.words.items.each do |item| %>
+				<%= partial "partials/image-tile", locals: { 
+				image: item.image,
+				title: item.title,
+				subtitle: item.subtitle,
+				description: item.description,
+				link: item.link } %>
+			<% end %>
+		</div>
 	</section>
 
 </article>

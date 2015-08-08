@@ -14,12 +14,6 @@
     "description": "CreativePPL is a careers platform geared towards web and mobile professionals in Thailand. I worked on this project as an intern at MAQE in Bangkok. Over the span of ten weeks, we conducted market research, developed wireframes and a proof of concept. The web application is built in Ruby on Rails."
   },
   {
-    "title": "C-Compiler",
-    "subtitle": "From C to Assembly",
-    "image": "/images/code_compiler.png",
-    "description": "The compiler takes a C source code and generates assembly language instructions. This project gave me a good understanding of what happens on the stack when an instruction is called, as well as of the operations needed prior to and after each instruction call."
-  },
-  {
     "title": "MEWOPH.COM",
     "subtitle": "Personal website",
     "image": "/images/code_compiler.png",
