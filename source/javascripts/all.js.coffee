@@ -7,7 +7,6 @@ $ ->
 			scrollTop: $(section).offset().top + 1
 		, 1500
 
-
 	checkActiveNav = ()->
 		current = $(document).scrollTop()
 		codeOffset = $("#code-section").offset().top
