@@ -193,6 +193,9 @@ button {
   padding: $gutter 0;
   border-bottom: $base-border;
   .tile-info {
+    .title {
+      text-transform: uppercase;
+    }
     @include media($large-screen) {
       @include span-columns(6);
     }

@@ -5,13 +5,15 @@
     "subtitle": "Art and the Absurd",
     "image": "/images/word_tile1.jpg",
     "link": "link",
+    "cta": "READ",
     "description": "An essay on art as a way of life and life as raw materials of art"
   },
   {
     "title": "The Trouble with Perfection",
     "subtitle": "Kitsch and its Vicissitudes",
-    "image": "/images/word_tile2.png",
+    "image": "/images/word_tile2.jpg",
     "link": "link",
+    "cta": "READ",
     "description": "A philosophical look at 'kitsch' - what it is and what is wrong with it"
   }]
 }

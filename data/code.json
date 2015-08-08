@@ -5,18 +5,19 @@
     "subtitle": "Front-end Framework and Styleguide",
     "image": "/images/code_depict.jpg",
     "link": "https://depict.com",
+    "cta": "VIEW",
     "description": "An essay on art as a way of life and life as raw materials of art"
   },
   {
-    "title": "CreativePPL",
+    "title": "Creative People",
     "subtitle": "Prototype for creative careers platform",
-    "image": "/images/code_creativeppl.png",
+    "image": "/images/code_creativeppl.jpg",
     "description": "CreativePPL is a careers platform geared towards web and mobile professionals in Thailand. I worked on this project as an intern at MAQE in Bangkok. Over the span of ten weeks, we conducted market research, developed wireframes and a proof of concept. The web application is built in Ruby on Rails."
   },
   {
     "title": "MEWOPH.COM",
     "subtitle": "Personal website",
-    "image": "/images/code_compiler.png",
+    "image": "/images/code_site.jpg",
     "description": "The compiler takes a C source code and generates assembly language instructions. This project gave me a good understanding of what happens on the stack when an instruction is called, as well as of the operations needed prior to and after each instruction call."
   }
   ]
