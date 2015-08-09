@@ -38,10 +38,36 @@
 			<% data.images.items.each do |item| %>
 				<%= partial "partials/image-tile-small", locals: { 
 				image: item.image,
+				hover: item.hover,
 				title: item.title,
-				link: item.link } %>
+				link: item.link,
+				id: item.id } %>
 			<% end %>
 		</div>
 	</section>
+
+	<% data.images.items.each do |item| %>
+		<section class="info-section subsection" id="<%= item.id %>">
+			<h4 class="section-header"><%= item.title %></h4>
+			<p class="section-intro"><%= item.description %></p>
+			<% if item.images.length > 1 %>
+				<div class="three-col">
+					<% item.images.each do |image| %>
+						<div class="gallery-item">
+							<a class="fancybox" rel="gallery" href="<%= image %>">
+								<figure class="image-item" style="background-image: url('<%= image %>');"></figure>
+							</a>
+						</div>
+					<% end %>
+				</div>
+			<% else %>
+				<figure class="image-item-wide">
+					<%= image_tag item.images.first %>
+				</figure>
+			<% end %>
+		</section>
+	<% end %>
+
+
 
 </article>

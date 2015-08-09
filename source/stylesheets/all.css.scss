@@ -261,9 +261,54 @@ button {
     .image-tile, .tile-info {
       @include span-columns(12);
       @include omega(n);
+      @include transition(all 1s);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .subsection-link {
+      cursor: pointer;
     }
     .tile-info {
       margin-top: $gutter/2;
     }    
   }
 }
+
+.subsection {
+
+  .three-col {
+    @include outer-container();
+    @include clearfix();
+
+    .gallery-item {
+      @include media($large-screen) {
+        @include span-columns(4);
+        @include omega(3n);
+      }
+      .image-item {
+        width: 100%;
+        height: 200px;
+        margin: $gutter/2 0;
+        @include media($large-screen) {
+          height: 250px;
+        }
+      }
+    }
+  }
+  .image-item-wide {
+    @include span-columns(12);
+    @include omega(n);
+    img {
+      display: block;
+    }
+  }
+  .image-item, .image-item-wide {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: $base-border;
+  }
+
+}
+

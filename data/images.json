@@ -2,23 +2,55 @@
   "intro": "Before I learned how to code, I designed with Photoshop and Illustrator. Here are some of my graphic design works.",
   "items": [{
     "title": "Stories and Places",
-    "image": "/images/word_tile1.jpg",
-    "link": "link"
+    "image": "/images/img_unesco.jpg",
+    "hover": "/images/img_unesco_color.jpg",
+    "id": "img-unesco",
+    "description": "The true beginning of a film is not when it plays. Rather, it is the story behind the story, the sparks of creativity that inspire the makers. This is the starting point of 'Stories and Places,' an exhibition I created for Luang Prabang Film Festival when I was an intern at UNESCO Bangkok. The project was a partnership between UNESCO and Luang Prabang Film Festival, and its goal was to promote World Heritage Sites as well as to raise awareness about preservation issues surrounding these sites (as Luang Prabang has been heavily commercialized with its status as a World Heritage Site and as a location for the movie Lara Croft: Tomb Raider). I was involved in this project from conceptualizing to production. This includes, but is not limited to, creating and researching contents, designing graphics for the exhibition itself and its promotions, and selecting papers on which these contents will be printed.",
+    "images": [
+      "/images/img_unesco/full1.png",
+      "/images/img_unesco/full2.png",
+      "/images/img_unesco/full3.png",
+      "/images/img_unesco/full4.png",
+      "/images/img_unesco/full5.png",
+      "/images/img_unesco/full6.png"
+    ]
   },
   {
     "title": "Layar Spread",
-    "image": "/images/word_tile1.jpg",
-    "link": "link"
+    "image": "/images/img_layar.jpg",
+    "hover": "/images/img_layar_color.jpg",
+    "id": "img-layar",
+    "description": "This is an exploration into the future of print with augmented reality. Reader can view the augmeted content by downloading Layar app and scan the page. Here I chose an article introducing St.Oberholz Cafe as the hub of Berlin's start-up. The AR content shows the atmosphere of the cafe and ways to connect with the cafe.",
+    "images": [
+      "/images/img_layar/full1.png",
+      "/images/img_layar/full2.png",
+      "/images/img_layar/full3.png"
+    ]
   },
   {
     "title": "Olympics Infographics",
-    "image": "/images/word_tile1.jpg",
-    "link": "link"
+    "image": "/images/img_infographic.jpg",
+    "hover": "/images/img_infographic_color.jpg",
+    "id": "img-infographic",
+    "description": "Having been in London just before the 2012 Olympics, I was inadvertently exposed to an overwhelming amout of statistics about the game as well as its history, so I designed this infographic to visualize some of the interesting ones.",
+    "images": [
+      "/images/img_olympic.png"
+    ]
   },
   {
     "title": "Cambridge Thai Night",
-    "image": "/images/word_tile1.jpg",
-    "link": "link"
+    "image": "/images/img_thainight.jpg",
+    "hover": "/images/img_thainight_color.jpg",
+    "id": "img-thainight",
+    "description": "'Thai Night' is an annual tradition of the Thai Students Society at Cambridge University where Thai students organize performances and a three-course Thai dinner for people in the Cambridge community. As the lead designer for the event in 2012, I was in charge of designing promotional media for the event (video and posters), tickets and menus, and was involved in the branding of the event. The theme for Thai Night 2012 was 'ZAB,' the fifth taste of Thai (just as the concept of 'umami' in Japanese). In my designs, I combined this sense of savory with the richness of traditional Thai performances to develope a graphic identity for the event.",
+        "images": [
+      "/images/img_thainight/full1.png",
+      "/images/img_thainight/full2.png",
+      "/images/img_thainight/full3.png",
+      "/images/img_thainight/full4.png",
+      "/images/img_thainight/full5.png",
+      "/images/img_thainight/full6.png"
+    ]
   }
   ]
 }

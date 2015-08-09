@@ -7,8 +7,10 @@
     <title><%= yield_content(:title) %></title>
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <%= stylesheet_link_tag "fancybox" %>
+    <%= javascript_include_tag "fancybox" %>
+    <%= javascript_include_tag "fancybox-buttons" %>
     <%= stylesheet_link_tag "all" %>
-
     <%= javascript_include_tag "all" %>
     
   </head>
