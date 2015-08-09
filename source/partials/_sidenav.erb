@@ -3,7 +3,9 @@
   <div class="empty"></div>
   <header class="sidebar">
     <div class="logo-container">
-      <img src="/images/logo.svg" class="logo">
+      <% link_to("/") do %>
+        <img src="/images/logo.svg" class="logo">
+      <% end %>
     </div>
     <section class="basic-info">
       <h4 class="name">mewoph.com</h4>
@@ -11,7 +13,7 @@
         <div class="menu-item code-menu link" data-section="#code-section">CODE</div>
         <div class="menu-item words-menu link" data-section="#words-section">WORDS</div>
         <div class="menu-item images-menu link" data-section="#images-section">IMAGES</div>
-        <% link_to "/cv.html" do %>
+        <% link_to "/cv" do %>
           <div class="menu-item link">CV</div>
         <% end %>
       </div>
