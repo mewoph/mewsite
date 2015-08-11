@@ -1,12 +1,12 @@
 {
-  "intro": "As a software engineer, I enjoy working at the intersection between design and code. I approach engineering challenges through UX lenses, with simplicity and usability at the forefront. Some of the technologies I use everyday are Ruby on Rails, Coffeescript, and Sass.",
+  "intro": "As an engineer, I enjoy working at the intersection between design and code. I approach engineering challenges through UX lenses, with simplicity and usability at the forefront. Some of the technologies I use everyday are Ruby on Rails, Coffeescript, and Sass.",
   "items": [{
-    "title": "Depict Website",
-    "subtitle": "Front-end Framework and Styleguide",
+    "title": "Depict",
+    "subtitle": "Digital Art Platform",
     "image": "/images/code_depict.jpg",
     "link": "https://depict.com",
     "cta": "VIEW",
-    "description": "An essay on art as a way of life and life as raw materials of art"
+    "description": "At Depict, I work on various aspects of the web platform, including custom front-end framework and artwork casting system."
   },
   {
     "title": "Creative People",
@@ -18,7 +18,7 @@
     "title": "MEWOPH.COM",
     "subtitle": "Personal website",
     "image": "/images/code_site.jpg",
-    "description": "The compiler takes a C source code and generates assembly language instructions. This project gave me a good understanding of what happens on the stack when an instruction is called, as well as of the operations needed prior to and after each instruction call."
+    "description": "This website was created in Middleman, designed in code, set in Chester Jenkins' <a class='link' href='http://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/' target='_blank'>Cooper Hewitt</a>. The source code can be found <a href='https://github.com/mewoph/mewsite' class='link' target='_blank'> here</a>."
   }
   ]
 }

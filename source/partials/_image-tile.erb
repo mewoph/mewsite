@@ -3,7 +3,7 @@
 	<div class="tile-info">
 		<h5 class="header-info title"><%= title %></h5>
 		<h5 class="header-info light"><%= subtitle %></h5>
-		<p class="description"><%= description %></p>
+		<p class="description"><%= description.html_safe %></p>
 
 		<% unless link.blank? %>
 			<% link_to link, target: "_blank" do %>
