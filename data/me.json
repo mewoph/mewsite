@@ -9,7 +9,7 @@
     {
       "programming": "Ruby on Rails, Node, HTML, CSS, Sass, Javascript, Coffeescript, Java, C, SQL",
       "design": "Wireframing, responsive design, designing in browser / code, AB testing",
-      "tools": "Git, AWS S3 / EC2, FFmpeg, Middleman, Adobe Photoshop / Illustrator / Typekit, Selenium, Jasmine"
+      "tools": "Git, AWS S3 / EC2, Heroku, Digital Ocean, FFmpeg, Adobe Photoshop / Illustrator, Selenium, Jasmine"
     }
   ,
   "education": [
