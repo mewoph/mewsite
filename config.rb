@@ -55,6 +55,8 @@ set :build_dir, 'tmp'
 
 activate :directory_indexes
 
+proxy "/cv.", "/cv.html"
+
 
 # Build-specific configuration
 configure :build do
