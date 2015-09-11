@@ -53,9 +53,6 @@ set :images_dir, 'images'
 
 set :build_dir, 'tmp'
 
-proxy "/cv.", "/cv.html", ignore: true
-
-
 activate :directory_indexes
 
 
