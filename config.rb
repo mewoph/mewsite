@@ -53,9 +53,8 @@ set :images_dir, 'images'
 
 set :build_dir, 'tmp'
 
-set :index_file, "home.html"
-
 activate :directory_indexes
+
 
 
 # Build-specific configuration
