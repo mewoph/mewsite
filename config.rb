@@ -55,6 +55,7 @@ set :build_dir, 'tmp'
 
 page "/sans-comicsans.html", layout: false
 
+
 activate :directory_indexes
 
 
