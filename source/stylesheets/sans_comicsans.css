@@ -117,26 +117,16 @@ html {
 
 /* === Content Styles === */
 
-#content {    padding: 10px 44px }
-
-.text {
-    text-align: center;
-    margin-top: 40px;
-    padding-bottom: 40px;
-    border-bottom: 1px transparent;
+#content {    
+    padding: 10px 44px;
+    position: relative;
+    height: 100vh;
 }
 
-.text h2 {
-    font-size: 30px;
-    color: #e5e5e5;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: lighter;
-    letter-spacing: 2px;
-}
 
 .counter {
-/*    background: url(/images/counter_bg.png) no-repeat scroll center 57px;*/
+    position: absolute;
+    top: 35%;
     width: 500px;
     height: 50px; /* distance between counter and slider */
     border-top: 0px transparent #4f4f4f;
@@ -158,6 +148,8 @@ html {
 .details {
     border-top: 0px transparent #4f4f4f;
     height: 120px;
+    position: absolute;
+    bottom: 8%;
 }
 
 .leftfloatingimage {
