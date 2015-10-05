@@ -9,6 +9,14 @@
     "description": "At Depict, I work on various aspects of the web platform, including custom front-end framework and artwork casting system."
   },
   {
+    "title": "Sans Comic Sans",
+    "subtitle": "The Life and Times of Comic Sans",
+    "image": "/images/code_comicsans.jpg",
+    "link": "http://mewoph.com/sans-comicsans",
+    "cta": "VIEW",
+    "description": "A fake countdown to the end of Comic Sans"
+  },
+  {
     "title": "Creative People",
     "subtitle": "Prototype for creative careers platform",
     "image": "/images/code_creativeppl.jpg",
