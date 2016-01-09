@@ -58,11 +58,12 @@
       "location": "San Francisco, CA",
       "date": "Feb 2014 - Present",
       "duties": [
-        "Created a front-end framework and styleguide for Ruby on Rails web application and applied the framework to site redesign",
-        "Built a system to transcode and stream 4K artworks using Node.js",
-        "Implemented artwork casting system for web app, Chromecast and Depict Frame",
-        "Built a custom CMS for Depict website",
-        "Developed a JSON API for iOS app"
+        "Designed the front-end architecture for Rails web application",
+        "Built a video transcoding service using Node.js and Redis-backed queue",
+        "Implemented Stripe-backed checkout and purchase management features",
+        "Prototyped third-party integration with Depict platform using Unsplash API",
+        "Developed a JSON API for Depict iOS app",
+        "Built a custom WYSIWYG editor for Depict website"
       ]
     }, 
     {
