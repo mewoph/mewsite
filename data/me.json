@@ -7,9 +7,10 @@
   "phone": "(267) 230 - 1871",
   "skills":
     {
-      "programming": "Ruby, Javascript, Coffeescript, HTML, CSS, Sass, Java, C",
-      "design": "Wireframing, responsive design, A/B testing",
-      "tools": "Git, Postgres, AWS S3 / EC2, FFmpeg, Selenium, Jasmine, Adobe Photoshop / Illustrator"
+      "design": "Wireframing, Custom Lettering, Responsive Website Design",
+      "printing": "Tabletop Platen Press (certified), Vandercook Press (basic)",
+      "tools": "Adobe Photoshop / Illustrator, Git, Postgres,  Software Testing (Selenium, Jasmine, Rspec)",
+      "programming": "HTML, CSS, Javascript, Ruby, Sass, Java, C"
     }
   ,
   "education": [
@@ -53,17 +54,22 @@
   ],
   "employment": [
     {
+      "employer": "Apple",
+      "position": "UI Engineer",
+      "location": "Cupertino, CA",
+      "date": "Mar 2016 - Present",
+      "duties": [
+        "Built UI for Apple Music on iOS and macOS"
+      ]
+    },
+    {
       "employer": "Depict",
       "position": "Full-Stack Engineer",
       "location": "San Francisco, CA",
-      "date": "Feb 2014 - Present",
+      "date": "Feb 2014 - Feb 2016",
       "duties": [
-        "Designed the front-end architecture for Rails web application",
-        "Built a video transcoding service using Node.js and Redis-backed queue",
-        "Implemented Stripe-backed checkout and purchase management features",
-        "Prototyped third-party integration with Depict platform using Unsplash API",
-        "Developed a JSON API for Depict iOS app",
-        "Built a custom WYSIWYG editor for Depict website"
+        "Created a front-end framework and style guide for web application",
+        "Designed and built product pages for artworks and Depict Frame"
       ]
     }, 
     {
@@ -72,7 +78,7 @@
       "location": "Bangkok, Thailand",
       "date": "May - Aug 2013",
       "duties": [
-        "Created wireframes and designs for a careers platform for creative professionals",
+        "Created moodboards, wireframes and designed with code",
         "Developed prototype web application using Ruby on Rails and AJAX"
       ]
     },
