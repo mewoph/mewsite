@@ -82,12 +82,18 @@ button {
       margin-bottom: $gutter/2;
       text-transform: uppercase;
     }
+    .description {
+      margin: $gutter/2 0;
+    }
     .contact-group, .menu-group {
       font-size: $small-font-size;
       margin-bottom: $gutter/2;
       .menu-item {
         @include transition(color 0.5s);
         font-weight: $bold-font-weight;
+      }
+      .resume-menu {
+        margin-top: $gutter/2;
       }
       .active {
         color: $light-color;
@@ -318,5 +324,23 @@ button {
     border: $base-border;
   }
 
+}
+
+.portfolio-grid {
+  @include outer-container();
+  @include clearfix();
+  .grid-item {
+    @include media($large-screen) {
+      @include span-columns(4);
+      @include omega(3n);
+    }   
+    background: black;
+    margin-bottom: $gutter/2;
+  }
+  .grid-item:before{
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
 }
 
