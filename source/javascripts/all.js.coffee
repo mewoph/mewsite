@@ -3,6 +3,7 @@ $ ->
 		itemSelector: '.grid-item',
 		layoutMode: 'fitRows',
 		percentPosition: true, 
+		transitionDuration: 800,
 		fitRows:
 			gutter: 15
 
