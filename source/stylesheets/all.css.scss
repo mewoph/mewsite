@@ -37,14 +37,6 @@ button {
     color: $light-color;
   }
 }
-.centered-navigation .nav-link:first-child {
-  margin-left: 0em;
-}
-.centered-navigation {
-  .active a {
-    color: transparentize($base-font-color, 0.5) !important;
-  }
-}
 
 .sidebar-wrapper, .sidenav-wrapper {
   .empty {
@@ -169,167 +161,13 @@ button {
   @include media($large-screen) {
     @include span-columns(9);
   }
-  .info-section {
-    margin-bottom: $gutter*3;
-    padding-top: $gutter;
-    .section-header {
-      text-transform: uppercase;
-      font-weight: $bold-font-weight;
-      @include media($large-screen) {
-        text-align: center;
-      }
-    }
-    .section-intro {
-      width: 100%;
-      text-align: left;
-      @include media($large-screen) {
-        width: 60%;
-        text-align: center;
-      }
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: $gutter/2;
-      margin-bottom: $gutter;
-    }
-  }
-}
-
-.image-tile-item {
-  @include outer-container();
-  @include clearfix();
-  padding: $gutter 0;
-  border-bottom: $base-border;
-  .tile-info {
-    .title {
-      text-transform: uppercase;
-    }
-    @include media($large-screen) {
-      @include span-columns(7);
-    }
-  }
-  .image-tile {
-    border: $base-border;
-    height:  200px;
-    margin-bottom: $gutter/2;
-    @include media($large-screen) {
-      @include span-columns(5);
-      margin-bottom: 0;
-    }
-  }
-  .description {
-    margin: $gutter/2 0;
-    .link {
-      color: $light-color;
-      @include transition(color 0.5s);
-      &:hover {
-        color: $dark-gray;
-      }
-    }
-  }
-  .read-btn {
-    display: block;
-  }
-}
-
-.two-col {
-  @include outer-container();
-  @include clearfix();
-  border-bottom: $base-border;
-  @include media($large-screen) {
-    padding-bottom: $gutter*3;
-  }
-  .image-tile-item {
-    @include media($large-screen) {
-      @include span-columns(6);
-      @include omega(2n);
-      border-bottom: none;
-    }
-    .image-tile, .tile-info {
-      @include span-columns(12);
-      @include omega(n);
-    }
-    .tile-info {
-      margin-top: $gutter/2;
-    }    
-  }
-}
-
-.four-col {
-  @include outer-container();
-  @include clearfix();
-  border-bottom: $base-border;
-  @include media($large-screen) {
-    padding-bottom: $gutter*3;
-  }
-  .title {
-    font-weight: $bold-font-weight;
-    font-size: 1em;
-    margin-bottom: $gutter/2;
-  }
-  .image-tile-item {
-    @include media($large-screen) {
-      @include span-columns(3);
-      @include omega(4n);
-      border-bottom: none;
-    }
-    .image-tile, .tile-info {
-      @include span-columns(12);
-      @include omega(n);
-      @include transition(all 1s);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-    .subsection-link {
-      cursor: pointer;
-    }
-    .tile-info {
-      margin-top: $gutter/2;
-    }    
-  }
-}
-
-.subsection {
-
-  .three-col {
-    @include outer-container();
-    @include clearfix();
-
-    .gallery-item {
-      @include media($large-screen) {
-        @include span-columns(4);
-        @include omega(3n);
-      }
-      .image-item {
-        width: 100%;
-        height: 200px;
-        margin: $gutter/2 0;
-        @include media($large-screen) {
-          height: 250px;
-        }
-      }
-    }
-  }
-  .image-item-wide {
-    @include span-columns(12);
-    @include omega(n);
-    img {
-      display: block;
-    }
-  }
-  .image-item, .image-item-wide {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border: $base-border;
-  }
-
 }
 
 .portfolio-grid {
   @include outer-container();
   @include clearfix();
   .grid-item {
+    color: $white;
     @include media($large-screen) {
       @include span-columns(4);
       @include omega(3n);
@@ -337,10 +175,10 @@ button {
     background: black;
     margin-bottom: $gutter/2;
   }
-  .grid-item:before{
+  .grid-item:before {
     content: "";
     display: block;
     padding-top: 100%;
-}
+  }
 }
 

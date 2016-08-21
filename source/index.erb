@@ -1,8 +1,9 @@
 <%= partial "/partials/sidenav" %>
 <article class="home-content">
 	<section class="portfolio-grid">
-		<% 12.times do %>
+		<% data.works.each do |work| %>
 			<figure class="grid-item">
+				<%= work.title %>
 			</figure>
 		<% end %>
 	</section>
