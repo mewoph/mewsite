@@ -1,17 +1,21 @@
 [
 
+	// TYPES: code, letter, graphic, essay
+
 	{
 		"title": "Far Out Corners Logo",
 		"subtitle": "",
 		"image": "",
-		"description": ""
+		"description": "",
+		"type": "letter"
 	},
 
 	{
 		"title": "Drop Cap Book Cover",
 		"subtitle": "",
 		"image": "",
-		"description": ""
+		"description": "",
+		"type": "letter"
 	},
 
 	{
@@ -19,21 +23,24 @@
    		"subtitle": "The Life and Times of Comic Sans",
     	"image": "/images/code_comicsans.jpg",
     	"link": "http://mewoph.com/sans-comicsans",
-    	"description": "A fake countdown to the end of Comic Sans"
+    	"description": "A fake countdown to the end of Comic Sans",
+    	"type": "graphic"
 	},
 
 	{
 		"title": "Donkey Express",
 		"subtitle": "Letterpress Notebook",
 		"image": "",
-		"description": ""
+		"description": "",
+		"type": "graphic"
 	},
 
 	{
 		"title": "The Fillmore Filter",
 		"subtitle": "Snapchat Geofilter",
 		"image": "",
-		"description": ""
+		"description": "",
+		"type": "letter"
 	},
 
 
@@ -41,7 +48,8 @@
 		"title": "MEWOPH.COM",
 	    "subtitle": "Personal website",
 	    "image": "/images/code_site.jpg",
-	    "description": "This website was created in Middleman, designed in code, set in Chester Jenkins' <a class='link' href='http://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/' target='_blank'>Cooper Hewitt</a>. The source code can be found <a href='https://github.com/mewoph/mewsite' class='link' target='_blank'> here</a>."
+	    "description": "This website was created in Middleman, designed in code, set in Chester Jenkins' <a class='link' href='http://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/' target='_blank'>Cooper Hewitt</a>. The source code can be found <a href='https://github.com/mewoph/mewsite' class='link' target='_blank'> here</a>.",
+	    "type": "code"
 	},
 
 	{
@@ -49,7 +57,8 @@
 	    "subtitle": "Digital Art Platform",
 	    "image": "/images/code_depict.jpg",
 	    "link": "https://depict.com",
-	    "description": "At Depict, I work on various aspects of the web platform, including custom front-end framework and artwork casting system."
+	    "description": "At Depict, I work on various aspects of the web platform, including custom front-end framework and artwork casting system.",
+	    "type": "code"
 	},
 
 	{
@@ -65,7 +74,8 @@
 	      "/images/img_unesco/full4.png",
 	      "/images/img_unesco/full5.png",
 	      "/images/img_unesco/full6.png"
-	    ]
+	    ],
+	    "type": "graphic"
 	},
 
 	{
@@ -76,7 +86,8 @@
 	    "description": "Having been in London just before the 2012 Olympics, I was inadvertently exposed to an overwhelming amout of statistics about the game as well as its history, so I designed this infographic to visualize some of the interesting ones.",
 	    "images": [
 	      "/images/img_olympic.png"
-	    ]
+	    ],
+	    "type": "graphic"
 	},
 
 	{
@@ -92,7 +103,8 @@
 		      "/images/img_thainight/full4.png",
 		      "/images/img_thainight/full5.png",
 		      "/images/img_thainight/full6.png"
-	    	]
+	    	],
+	    "type": "graphic"
 	},
 
 	{
@@ -100,7 +112,8 @@
 	    "subtitle": "Art and the Absurd",
 	    "image": "/images/word_tile1.jpg",
 	    "link": "https://medium.com/@mewoph/the-fancy-of-the-contemplatives-18b9998ac3c9",
-	    "description": "An essay on art as a way of life and life as raw materials of art"
+	    "description": "An essay on art as a way of life and life as raw materials of art",
+	    "type": "essay"
 	},
 
 	{
@@ -108,7 +121,8 @@
 	    "subtitle": "Kitsch and its Vicissitudes",
 	    "image": "/images/word_tile2.jpg",
 	    "link": "https://medium.com/@mewoph/the-trouble-with-perfection-kitsch-and-its-vicissitudes-part-i-6078ab5f622",
-	    "description": "A philosophical look at 'kitsch' - what it is and what is wrong with it"
+	    "description": "A philosophical look at 'kitsch' - what it is and what is wrong with it",
+	    "type": "essay"
 	}
 
 ]

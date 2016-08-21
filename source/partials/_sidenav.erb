@@ -14,11 +14,11 @@
         Some kind of tag line
       </p>
       <div class="menu-group">
-        <div class="menu-item link">All</div>
-        <div class="menu-item link">Code</div>
-        <div class="menu-item link">Essays</div>
-        <div class="menu-item link">Lettering</div>
-        <div class="menu-item link">Graphic Design</div>
+        <div class="menu-item link active" data-type="all">All</div>
+        <div class="menu-item link" data-type="code">Code</div>
+        <div class="menu-item link" data-type="essay">Essays</div>
+        <div class="menu-item link" data-type="letter">Lettering</div>
+        <div class="menu-item link" data-type="graphic">Graphic Design</div>
         <% link_to "/cv" do %>
           <div class="menu-item resume-menu link">Resume</div>
         <% end %>
