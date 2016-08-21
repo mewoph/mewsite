@@ -167,13 +167,16 @@ button {
   @include outer-container();
   @include clearfix();
   .grid-item {
+    width: 100%;
     color: $white;
-    @include media($large-screen) {
-      @include span-columns(4);
-      @include omega(3n);
-    }   
     background: black;
     margin-bottom: $gutter/2;
+    @include media($medium-screen) {
+      width: 48%;
+    }
+    @include media($large-screen) {
+      width: 31%;
+    }
   }
   .grid-item:before {
     content: "";
