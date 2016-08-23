@@ -1,10 +1,12 @@
 <%= partial "/partials/sidenav" %>
 <article class="home-content">
 	<section class="portfolio-grid">
-			<% data.works.each do |work| %>
-			<figure class="grid-item type-<%= work.type %>">
-				<%= work.title %>
-			</figure>
+		<% data.works.each do |work| %>
+			<% link_to "/work/#{work.permalink}" do %>
+				<figure class="grid-item type-<%= work.type %>">
+					<%= work.title %>
+				</figure>
+			<% end %>
 		<% end %>
 	</section>
 </article>

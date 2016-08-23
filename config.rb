@@ -58,6 +58,9 @@ page "/sans-comicsans.html", layout: false
 
 activate :directory_indexes
 
+data.works.each do |work|
+  proxy "/work/#{work.permalink}/index.html", "/work/template.html", :locals => { :work => work }, :ignore => true
+end
 
 
 # Build-specific configuration

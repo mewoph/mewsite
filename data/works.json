@@ -4,6 +4,7 @@
 
 	{
 		"title": "Far Out Corners Logo",
+		"permalink": "far-out-corners-logo",
 		"subtitle": "",
 		"image": "",
 		"description": "",
@@ -12,6 +13,7 @@
 
 	{
 		"title": "Drop Cap Book Cover",
+		"permalink": "drop-cap-cover",
 		"subtitle": "",
 		"image": "",
 		"description": "",
@@ -20,6 +22,7 @@
 
 	{
 		"title": "Sans Comic Sans",
+		"permalink": "sans-comic-sans",
    		"subtitle": "The Life and Times of Comic Sans",
     	"image": "/images/code_comicsans.jpg",
     	"link": "http://mewoph.com/sans-comicsans",
@@ -29,6 +32,7 @@
 
 	{
 		"title": "Donkey Express",
+		"permalink": "donkey-express",
 		"subtitle": "Letterpress Notebook",
 		"image": "",
 		"description": "",
@@ -37,6 +41,7 @@
 
 	{
 		"title": "The Fillmore Filter",
+		"permalink": "fillmore-filter",
 		"subtitle": "Snapchat Geofilter",
 		"image": "",
 		"description": "",
@@ -46,6 +51,7 @@
 
 	{
 		"title": "MEWOPH.COM",
+		"permalink": "mewoph-dot-com",
 	    "subtitle": "Personal website",
 	    "image": "/images/code_site.jpg",
 	    "description": "This website was created in Middleman, designed in code, set in Chester Jenkins' <a class='link' href='http://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/' target='_blank'>Cooper Hewitt</a>. The source code can be found <a href='https://github.com/mewoph/mewsite' class='link' target='_blank'> here</a>.",
@@ -54,6 +60,7 @@
 
 	{
 		"title": "Depict",
+		"permalink": "depict-site",
 	    "subtitle": "Digital Art Platform",
 	    "image": "/images/code_depict.jpg",
 	    "link": "https://depict.com",
@@ -63,6 +70,7 @@
 
 	{
 		"title": "Stories and Places",
+		"permalink": "stories-and-places",
 	    "image": "/images/img_unesco.jpg",
 	    "hover": "/images/img_unesco_color.jpg",
 	    "id": "img-unesco",
@@ -80,6 +88,7 @@
 
 	{
 		"title": "Olympics Infographics",
+		"permalink": "olympics-infographics",
 	    "image": "/images/img_infographic.jpg",
 	    "hover": "/images/img_infographic_color.jpg",
 	    "id": "img-infographic",
@@ -92,6 +101,7 @@
 
 	{
 	    "title": "Cambridge Thai Night",
+	    "permalink": "cambridge-thai-night",
 	    "image": "/images/img_thainight.jpg",
 	    "hover": "/images/img_thainight_color.jpg",
 	    "id": "img-thainight",
@@ -109,6 +119,7 @@
 
 	{
 		"title": "The Fancy of the Contemplatives",
+		"permalink": "art-absurd-essay",
 	    "subtitle": "Art and the Absurd",
 	    "image": "/images/word_tile1.jpg",
 	    "link": "https://medium.com/@mewoph/the-fancy-of-the-contemplatives-18b9998ac3c9",
@@ -117,7 +128,8 @@
 	},
 
 	{
-		 "title": "The Trouble with Perfection",
+		"title": "The Trouble with Perfection",
+		"permalink": "kitsch-essay",
 	    "subtitle": "Kitsch and its Vicissitudes",
 	    "image": "/images/word_tile2.jpg",
 	    "link": "https://medium.com/@mewoph/the-trouble-with-perfection-kitsch-and-its-vicissitudes-part-i-6078ab5f622",
