@@ -36,7 +36,9 @@ $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
 
 // Background Color
+$true-white: #ffffff;
 $white: #fafafa;
+$black: #000000;
 $base-background-color: $white;
 
 // Font Colors
@@ -76,4 +78,12 @@ $form-font-family: $base-font-family;
   -ms-transition: $args;
   -o-transition: $args;
   transition: $args;
+}
+
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }

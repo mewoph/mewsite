@@ -1,5 +1,29 @@
 <%= partial "/partials/sidenav" %>
 <%= javascript_include_tag "works" %>
 <article class="work-content">
-	template for <%= work.title %>
+	<section class="top-content">
+		<div class="banner">
+			<% cover = work.coverImage ? work.coverImage : work.image %>
+			<div class="banner-image" style="background-image: url('<%= cover %>');"></div>
+		</div>
+		<div class="intro">
+			<h1><%= work.title %></h1>
+			<p class="description"><%= work.description %></p>
+		</div>
+	</section>
+
+	<section class="details-section">
+		<div class="details-content">
+			<% if work.images %>
+				<div class="gallery">
+					<% itemClass = work.images.length > 1 ? "three-col" : "one-col" %>
+					<% work.images.each do |image| %>
+						<div class="gallery-item <%= itemClass %>">
+							<%= image_tag image %>
+						</div>
+					<% end %>
+				</div>
+			<% end %>
+		</div>
+	</section>
 </article>

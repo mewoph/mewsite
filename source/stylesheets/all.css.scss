@@ -157,7 +157,7 @@ button {
 }
 
 
-.home-content {
+.home-content, .work-content {
   @include media($large-screen) {
     @include span-columns(9);
   }
@@ -169,13 +169,42 @@ button {
   .grid-item {
     width: 100%;
     color: $white;
-    background: black;
+    background: $black;
     margin-bottom: $gutter/2;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     @include media($medium-screen) {
       width: 48%;
     }
     @include media($large-screen) {
       width: 31%;
+    }
+    .title {
+      @include vertical-align(absolute);
+      @include transition(opacity 1s);
+      text-align: center;
+      width: 100%;
+      padding: 0 $gutter*2;
+      opacity: 0;
+    }
+    .overlay {
+      @include transition(opacity 1s);
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: $black;
+      opacity: 0;
+    }
+  }
+  .grid-item:hover {
+    .title {
+      opacity: 1;
+    }
+    .overlay {
+      opacity: 0.9;
     }
   }
   .grid-item:before {
@@ -185,3 +214,59 @@ button {
   }
 }
 
+.work-content {
+  @include outer-container();
+  @include clearfix();
+  background: $true-white;
+  position: relative;
+  min-height: 89vh;
+  .top-content {
+    @include clearfix();
+  }
+  .banner {
+    overflow: hidden;
+    position: relative;
+    .banner-image {
+      height: 45vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      -webkit-filter: blur(10px);
+      filter: blur(10px);
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      -webkit-transform: scale(1.5);
+      transform: scale(1.5);
+    }
+  }
+  .details-section {
+    top: 75px;
+    width: 100%;
+    .gallery {
+      padding-bottom: $gutter*2;
+    }
+  }
+  .intro {
+    position: relative;
+    margin: -25% auto 0 auto;
+    background: $true-white;
+    z-index: 1;
+    width: 75%;
+    padding: $gutter*2;
+    min-height: 250px;
+  }
+
+  .description {
+    margin: $gutter/2 0;
+  }
+}
+
+.gallery {
+  @include outer-container();
+  @include clearfix();
+  .three-col {
+    @include media($large-screen) {
+      width: 31%;
+    }
+  }
+}
