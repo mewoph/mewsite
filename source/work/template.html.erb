@@ -32,9 +32,11 @@
 				<div class="gallery">
 					<% if has_gallery %>
 						<% work.images.each do |image| %>
-							<div class="gallery-item three-col"
-							style="background-image: url('<%= image %>');">
-							</div>
+							<a class="fancybox three-col" rel="gallery" href="<%= image %>">
+								<div class="gallery-item"
+								style="background-image: url('<%= image %>');">
+								</div>
+							</a>
 						<% end %>
 					<% else %>
 						<% image = work.images[0] %>

@@ -1,8 +1,8 @@
 $ ->
 	$(".menu-item").removeClass "active"
 
-	# $(".gallery").isotope
-	# 	itemSelector: 'gallery-item'
-	# 	layoutMode: 'masonry'
-	# 	masonry:
-	# 		gutter: 0
+	$(".fancybox").fancybox
+		helpers:
+		  overlay:
+		    css:
+		      background: "rgba(3, 3, 3, 0.95)"
