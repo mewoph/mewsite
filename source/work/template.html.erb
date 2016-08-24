@@ -1,5 +1,6 @@
 <%= partial "/partials/sidenav" %>
 <%= javascript_include_tag "works" %>
+<% has_gallery = work.images && work.images.length > 1 %>
 <article class="work-content">
 	<section class="top-content">
 		<div class="banner">
@@ -9,6 +10,19 @@
 		<div class="intro">
 			<h1><%= work.title %></h1>
 			<p class="description"><%= work.description %></p>
+			<div class="cta">
+				<% if has_gallery %>
+					Click on the thumbnail to view larger image
+				<% elsif work.type == "code" %>
+					<% link_to work.link, target: "_blank", class: "link" do %>
+						View Site<i class="fa fa-chevron-right" aria-hidden="true"></i>
+					<% end %>
+				<% elsif work.type === "essay" %>
+					<% link_to work.link, target: "_blank", class: "link" do %>
+						Read Essay<i class="fa fa-chevron-right" aria-hidden="true"></i>
+					<% end %>
+				<% end %>
+			</div>
 		</div>
 	</section>
 
@@ -16,11 +30,15 @@
 		<div class="details-content">
 			<% if work.images %>
 				<div class="gallery">
-					<% itemClass = work.images.length > 1 ? "three-col" : "one-col" %>
-					<% work.images.each do |image| %>
-						<div class="gallery-item <%= itemClass %>">
-							<%= image_tag image %>
-						</div>
+					<% if has_gallery %>
+						<% work.images.each do |image| %>
+							<div class="gallery-item three-col"
+							style="background-image: url('<%= image %>');">
+							</div>
+						<% end %>
+					<% else %>
+						<% image = work.images[0] %>
+						<%= image_tag image, alt: work.title, class: 'gallery-image' %>
 					<% end %>
 				</div>
 			<% end %>

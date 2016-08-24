@@ -55,7 +55,8 @@
 	    "subtitle": "Personal website",
 	    "image": "/images/code_site.jpg",
 	    "description": "This website was created in Middleman, designed in code, set in Chester Jenkins' <a class='link' href='http://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/' target='_blank'>Cooper Hewitt</a>. The source code can be found <a href='https://github.com/mewoph/mewsite' class='link' target='_blank'> here</a>.",
-	    "type": "code"
+	    "type": "code",
+	    "link": "http://mewoph.com"
 	},
 
 	{

@@ -256,6 +256,15 @@ button {
     min-height: 250px;
   }
 
+  .cta {
+    margin-top: $gutter;
+    font-weight: $bold-font-weight;
+    .fa {
+      font-size: 0.8em;
+      margin-left: 3px;
+    }
+  }
+
   .description {
     margin: $gutter/2 0;
   }
@@ -264,9 +273,24 @@ button {
 .gallery {
   @include outer-container();
   @include clearfix();
+  .gallery-item {
+    margin-bottom: $gutter/2;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+  }
+  .gallery-item:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+  }
+  .gallery-item, .gallery-image {
+    border: 1px solid $light-gray;
+  }
   .three-col {
     @include media($large-screen) {
-      width: 31%;
+      @include span-columns(4);
+      @include omega(3n);
     }
   }
 }
