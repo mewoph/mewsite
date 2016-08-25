@@ -8,11 +8,6 @@
   <section class="basic-info">
     <h4 class="name">Mew Varissara Ophaswongse</h4>
     <div class="contact-group">
-      <div class="address"><%= data.me.address %></div>
-      <div class="address-city"><%= data.me.city %></div>
-      <div class="phone"><%= data.me.phone %></div>
-    </div>
-    <div class="contact-group">
       <% link_to "mailto: #{data.me.email}" do %>
         <div class="link email"><%= data.me.email %></div>
       <% end %>
