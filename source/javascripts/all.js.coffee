@@ -10,10 +10,13 @@ $ ->
 	filterGrid = (type)->
 		if type is 'all'
 			$filterType = "*"
+			$grid.isotope
+				filter: $filterType
+			$grid.isotope 'shuffle'
 		else
 			$filterType = ".type-#{type}"
-		$grid.isotope
-			filter: $filterType
+			$grid.isotope
+				filter: $filterType
 
 	showGrid = (type)->
 		location.href = "/?filter=#{type}"
