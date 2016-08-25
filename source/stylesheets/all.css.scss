@@ -220,6 +220,12 @@ button {
   background: $true-white;
   position: relative;
   min-height: 89vh;
+  .subtitle {
+    color: $medium-gray;
+    margin-top: $gutter/3;
+    font-size: 1.25em;
+    margin-bottom: $gutter;
+  }
   .top-content {
     @include clearfix();
   }
@@ -227,7 +233,7 @@ button {
     overflow: hidden;
     position: relative;
     .banner-image {
-      height: 45vh;
+      height: 55vh;
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -267,6 +273,9 @@ button {
 
   .description {
     margin: $gutter/2 0;
+    .link {
+      color: $medium-gray;
+    }
   }
 }
 
@@ -279,6 +288,10 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
+  }
+  .gallery-image {
+    @include span-columns(12);
+    @include omega(n);
   }
   .gallery-item:before {
     content: "";

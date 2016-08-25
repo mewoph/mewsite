@@ -9,6 +9,9 @@
 		</div>
 		<div class="intro">
 			<h1><%= work.title %></h1>
+			<% if work.subtitle %>
+				<h2 class="subtitle"><%= work.subtitle %></h2>
+			<% end %>
 			<p class="description"><%= work.description %></p>
 			<div class="cta">
 				<% if has_gallery %>
@@ -17,7 +20,7 @@
 					<% link_to work.link, target: "_blank", class: "link" do %>
 						View Site<i class="fa fa-chevron-right" aria-hidden="true"></i>
 					<% end %>
-				<% elsif work.type === "essay" %>
+				<% elsif work.type == "essay" %>
 					<% link_to work.link, target: "_blank", class: "link" do %>
 						Read Essay<i class="fa fa-chevron-right" aria-hidden="true"></i>
 					<% end %>
@@ -39,8 +42,9 @@
 							</a>
 						<% end %>
 					<% else %>
+						<% gallery_class = work.no_border ? "no-border" : "gallery-image" %>
 						<% image = work.images[0] %>
-						<%= image_tag image, alt: work.title, class: 'gallery-image' %>
+						<%= image_tag image, alt: work.title, class: gallery_class %>
 					<% end %>
 				</div>
 			<% end %>

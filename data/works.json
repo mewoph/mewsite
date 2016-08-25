@@ -5,18 +5,20 @@
 	{
 		"title": "Far Out Corners Logo",
 		"permalink": "far-out-corners-logo",
-		"subtitle": "",
-		"image": "/images/code_comicsans.jpg",
-		"description": "",
+		"subtitle": "Custom Lettering",
+		"image": "/images/letter_faroutcorners.jpg",
+		"images": ["/images/img_faroutcorners.jpg"],
+		"description": "<a href='https://www.facebook.com/faroutcorners' class='link' target='_blank'>Far Out Corners</a> is an indie-rock band based in San Francisco. I started with some pencil sketches that are then digitized using the pen tool in Affinity Designer. The logo is inspired by vintage rock concert posters from the 60s. It can be viewed both horizontally and vertically.",
 		"type": "letter"
 	},
 
 	{
 		"title": "Drop Cap Book Cover",
 		"permalink": "drop-cap-cover",
-		"subtitle": "",
-		"image": "/images/code_comicsans.jpg",
-		"description": "",
+		"subtitle": "Crime and Punishment by Fyodor Dostoyevsky",
+		"image": "/images/letter_dropcap.jpg",
+		"images": ["/images/img_book_cover.jpg"],
+		"description": "This is a project for Jessica Hische's <a href='http://skl.sh/jessicah' class='link' target='_blank'>lettering class</a> based on Penguin Drop Caps series. I chose Fyodor Dostoyevsky's Crime and Punishment and the letter 'D' for this project. This cover aims to incorporate the imagery of the axe and the color yellow, which are featured prominently in the novel.",
 		"type": "letter"
 	},
 
@@ -25,17 +27,25 @@
 		"permalink": "sans-comic-sans",
    		"subtitle": "The Life and Times of Comic Sans",
     	"image": "/images/code_comicsans.jpg",
+    	"images": ["/images/code_comicsans.png"],
     	"link": "http://mewoph.com/sans-comicsans",
     	"description": "A fake countdown to the end of Comic Sans",
-    	"type": "code"
+    	"type": "code",
+    	"no_border": "true"
 	},
 
 	{
 		"title": "Donkey Express",
 		"permalink": "donkey-express",
 		"subtitle": "Letterpress Notebook",
-		"image": "/images/code_comicsans.jpg",
-		"description": "",
+		"image": "/images/letter_donkey.jpg",
+		"coverImage": "/images/img_donkey/full3.jpg",
+		"images": [
+	      "/images/img_donkey/full1.jpg",
+	      "/images/img_donkey/full2.jpg",
+	      "/images/img_donkey/full3.jpg"
+	    ],
+		"description": "These notebooks were printed on tabletop platen press at San Francisco Center for the Book.",
 		"type": "graphic"
 	},
 
@@ -43,9 +53,11 @@
 		"title": "The Fillmore Filter",
 		"permalink": "fillmore-filter",
 		"subtitle": "Snapchat Geofilter",
-		"image": "/images/code_comicsans.jpg",
-		"description": "",
-		"type": "letter"
+		"image": "/images/letter_fillmore.jpg",
+		"images": ["/images/img_filters.jpg"],
+		"description": "This is a Snapchat Geofilter for the Fillmore District in San Francisco. It is inspired by works in the Poster Room at the Fillmore.",
+		"type": "letter",
+		"no_border": "true"
 	},
 
 	{
@@ -53,9 +65,11 @@
 		"permalink": "mewoph-dot-com",
 	    "subtitle": "Personal website",
 	    "image": "/images/code_site.jpg",
+	    "images": ["/images/code_mewoph.png"],
 	    "description": "This website was created in Middleman, designed in code, set in Chester Jenkins' <a class='link' href='http://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/' target='_blank'>Cooper Hewitt</a> and Cyreal's <a class='link' href='http://www.cyreal.org/2012/07/lora/' target='_blank'>Lora</a>. The source code can be found <a href='https://github.com/mewoph/mewsite' class='link' target='_blank'> here</a>.",
 	    "type": "code",
-	    "link": "http://mewoph.com"
+	    "link": "http://mewoph.com",
+	    "no_border": "true"
 	},
 
 	{
@@ -63,13 +77,16 @@
 		"permalink": "depict-site",
 	    "subtitle": "Digital Art Platform",
 	    "image": "/images/code_depict.jpg",
+	    "images": ["/images/code_depict.png"],
 	    "link": "https://depict.com",
-	    "description": "At Depict, I work on various aspects of the web platform, including custom front-end framework and artwork casting system.",
-	    "type": "code"
+	    "description": "At Depict, I was a full-stack engineer working on various aspects of the web platform, including custom front-end framework and artwork casting system.",
+	    "type": "code",
+	    "no_border": "true"
 	},
 
 	{
 		"title": "Stories and Places",
+		"subtitle": "An Exhibition for UNESCO & Luang Prabang Film Festival",
 		"permalink": "stories-and-places",
 	    "image": "/images/img_unesco.jpg",
 	    "coverImage": "/images/img_unesco_color.jpg",
@@ -121,7 +138,8 @@
 		"title": "The Fancy of the Contemplatives",
 		"permalink": "art-absurd-essay",
 	    "subtitle": "Art and the Absurd",
-	    "image": "/images/word_tile1.jpg",
+	    "image": "/images/word_tile1_thumb.jpg",
+	    "coverImage": "/images/word_tile1.jpg",
 	    "link": "https://medium.com/@mewoph/the-fancy-of-the-contemplatives-18b9998ac3c9",
 	    "description": "An essay on art as a way of life and life as raw materials of art",
 	    "type": "essay"
@@ -131,6 +149,7 @@
 		"title": "The Trouble with Perfection",
 		"permalink": "kitsch-essay",
 	    "subtitle": "Kitsch and its Vicissitudes",
+	    "coverImage": "/images/word_tile2.png",
 	    "image": "/images/word_tile2.jpg",
 	    "link": "https://medium.com/@mewoph/the-trouble-with-perfection-kitsch-and-its-vicissitudes-part-i-6078ab5f622",
 	    "description": "A philosophical look at 'kitsch' - what it is and what is wrong with it",
