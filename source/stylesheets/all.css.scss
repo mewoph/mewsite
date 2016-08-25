@@ -254,12 +254,25 @@ button {
   }
   .intro {
     position: relative;
-    margin: -25% auto 0 auto;
+    margin: -55% auto 0 auto;
     background: $true-white;
     z-index: 1;
-    width: 75%;
-    padding: $gutter*2;
+    width: 100%;
+    padding: $gutter;
     min-height: 250px;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+    @include media($medium-screen) {
+      margin: -35% auto 0 auto;
+      width: 80%;
+    }
+    @include media($large-screen) {
+      margin: -25% auto 0 auto;
+      padding: $gutter*2;
+      width: 75%;
+    }
   }
 
   .cta {
