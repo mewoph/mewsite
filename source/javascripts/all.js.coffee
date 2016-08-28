@@ -1,4 +1,8 @@
 $ ->
+	$('.lazyload').lazyload
+		effect: 'fadeIn',
+		threshold: 100
+
 	$grid = $('.portfolio-grid').isotope
 		itemSelector: '.grid-item',
 		layoutMode: 'fitRows',

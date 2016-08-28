@@ -36,15 +36,15 @@
 					<% if has_gallery %>
 						<% work.images.each do |image| %>
 							<a class="fancybox three-col" rel="gallery" href="<%= image %>">
-								<div class="gallery-item"
-								style="background-image: url('<%= image %>');">
+								<div class="gallery-item lazyload" data-original="<%= image %>">
 								</div>
 							</a>
 						<% end %>
 					<% else %>
 						<% gallery_class = work.no_border ? "no-border" : "gallery-image" %>
 						<% image = work.images[0] %>
-						<%= image_tag image, alt: work.title, class: gallery_class %>
+						<%# image_tag image, alt: work.title, class: gallery_class %>
+						<img class="lazyload <%= gallery_class %>" data-original="<%= image %>"/>
 					<% end %>
 				</div>
 			<% end %>
