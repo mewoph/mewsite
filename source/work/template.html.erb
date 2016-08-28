@@ -43,7 +43,6 @@
 					<% else %>
 						<% gallery_class = work.no_border ? "no-border" : "gallery-image" %>
 						<% image = work.images[0] %>
-						<%# image_tag image, alt: work.title, class: gallery_class %>
 						<img class="lazyload <%= gallery_class %>" data-original="<%= image %>"/>
 					<% end %>
 				</div>

@@ -3,7 +3,7 @@
 	<section class="portfolio-grid">
 		<% data.works.each do |work| %>
 			<% link_to "/work/#{work.permalink}" do %>
-				<figure class="grid-item lazyload type-<%= work.type %>" data-original="<%= work.image %>">
+				<figure class="grid-item type-<%= work.type %>" style="background-image: url('<%= work.image %>');">
 					<div class="overlay"></div>
 					<div class="title"><%= work.title %><div>
 				</figure>
