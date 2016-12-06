@@ -55,7 +55,7 @@
 		"subtitle": "Snapchat Geofilter",
 		"image": "/images/letter_fillmore.jpg",
 		"images": ["/images/img_filters.jpg"],
-		"description": "This is a Snapchat Geofilter for the Fillmore District in San Francisco. It is inspired by works in the Poster Room at the Fillmore.",
+		"description": "This is a Geofilter for the Fillmore District in San Francisco, activated by Snapchat on Sep 9, 2016. It is inspired by works in the Poster Room at the Fillmore.",
 		"type": "letter",
 		"no_border": "true"
 	},
@@ -73,15 +73,13 @@
 	},
 
 	{
-		"title": "Depict",
-		"permalink": "depict-site",
-	    "subtitle": "Digital Art Platform",
-	    "image": "/images/code_depict.jpg",
-	    "images": ["/images/code_depict.png"],
-	    "link": "https://depict.com",
-	    "description": "At Depict, I was a full-stack engineer working on various aspects of the web platform, including custom front-end framework and artwork casting system.",
-	    "type": "code",
-	    "no_border": "true"
+		"title": "Everyone Knows",
+		"permalink": "everyone-knows",
+	    "subtitle": "Cover Art",
+	    "image": "/images/img_everyoneknowsthumb.jpg",
+	    "images": ["/images/img_everyoneknows.jpg"],
+	    "description": "This is a cover for SF-band Far Out Corners' debut single <a class='link' href='http://faroutcorners.bandcamp.com' target='_blank'>Everyone Knows</a>. The illustration is inspired by vintage guitar advertisement posters and psychedelic lettering.",
+	    "type": "graphic"
 	},
 
 	{
