@@ -3,26 +3,34 @@
   <div class="empty"></div>
   <header class="sidebar">
     <div class="logo-container">
-      <% link_to("/") do %>
+      <% link = defined?(design_nav) ? '/design' : '/' %>
+      <% link_to(link) do %>
         <img src="/images/logo.svg" class="logo">
       <% end %>
     </div>
     <section class="basic-info">
-      <h4 class="name">MEWOPH.COM</h4>
+      <% if defined?(title) %>
+        <h4 class="title"><%= title %></h4>
+      <% else %>
+        <h4 class="name">Mew Ophaswongse</h4>
+      <% end %>
       <p class="serif description">
-        <%= data.me.tagline %>
+        <% description_text = defined?(description) ? description : data.me.tagline %>
+        <%= description_text %>
       </p>
       <div class="menu-group">
-        <div class="menu-item link active" data-type="all">All</div>
-        <div class="menu-item link" data-type="code">Code</div>
-        <div class="menu-item link" data-type="essay">Essays</div>
-        <div class="menu-item link" data-type="letter">Lettering</div>
-        <div class="menu-item link" data-type="graphic">Graphic Design</div>
-        <% link_to "/cv" do %>
-          <div class="menu-item resume-menu link">Resume</div>
-        <% end %>
+          <% unless defined?(design_nav) %>
+            <div class="menu-item link active" data-type="all">All</div>
+            <div class="menu-item link" data-type="code">Code</div>
+            <div class="menu-item link" data-type="essay">Essays</div>
+            <div class="menu-item link" data-type="letter">Lettering</div>
+            <div class="menu-item link" data-type="graphic">Graphic Design</div>
+          <% end %>
       </div>
       <div class="contact-group social-icons">
+        <% link_to "/cv", target: "_blank" do %>
+          <div class="menu-item resume-menu link">Resume</div>
+        <% end %>
         <% link_to data.me.instagram, target: "_blank" do %>
           <i class="link fa fa-instagram"></i>
         <% end %>

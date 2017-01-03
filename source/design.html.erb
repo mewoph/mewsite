@@ -1,1 +1,14 @@
-Design Portfolio
+<%= partial "/partials/sidenav", locals: {design_nav: true} %>
+<article class="home-content">
+	<section class="portfolio-grid">
+		<% design_works = data.works.select { |work| work.is_design } %>
+		<% design_works.each do |work| %>
+			<% link_to "/design/#{work.permalink}" do %>
+				<figure class="grid-item type-<%= work.type %>" style="background-image: url('<%= work.image %>');">
+					<div class="overlay"></div>
+					<div class="title"><%= work.title %><div>
+				</figure>
+			<% end %>
+		<% end %>
+	</section>
+</article>

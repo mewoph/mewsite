@@ -48,5 +48,3 @@ $ ->
 			filterParam = getQueryParam('filter')
 			if filterParam
 				filterGrid(filterParam)
-			else
-				$grid.isotope 'shuffle'

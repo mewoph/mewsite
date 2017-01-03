@@ -69,10 +69,12 @@ button {
     display: block;
   }
   .basic-info {
-    .name {
+    .name, .title {
       font-weight: $bold-font-weight;
       margin-bottom: $gutter/2;
-      text-transform: uppercase;
+    }
+    .name {
+      text-transform: uppercase
     }
     .description {
       margin: $gutter/2 0;
@@ -92,9 +94,17 @@ button {
       }
     }
     .social-icons {
+      position: relative;
+      @include media($large-screen) {
+        position: fixed;
+        bottom: 20px;
+      }
       .fa {
         font-size: 1.25em;
         margin-right: 5px;
+      }
+      .resume-menu {
+        margin-bottom: 0.75em;
       }
     }
   }
@@ -157,7 +167,7 @@ button {
 }
 
 
-.home-content, .work-content {
+.home-content, .work-content, .design-content {
   @include media($large-screen) {
     @include span-columns(9);
   }
@@ -324,3 +334,42 @@ button {
     }
   }
 }
+
+.design-content {
+  background: $true-white;
+  padding: 0 20px 30px 20px;
+  .gallery {
+    text-align: center;
+  }
+  .gallery-img {
+    max-height: 85vh;
+    width: auto;
+    float: none;
+  }
+  .description {
+    margin: 20px 0;
+  }
+  .cta-link {
+    font-weight: $bold-font-weight;
+    .fa {
+      font-size: 0.8em;
+      margin-left: 3px;
+    }
+  }
+}
+
+body:before, body:after {
+    content: "";
+    position: fixed;
+    background: $white;
+    left: 0;
+    right: 0;
+    height: 20px;
+}
+body:before {
+    top: 0;
+}
+body:after {
+    bottom: 0;
+}
+
