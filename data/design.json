@@ -1,0 +1,118 @@
+[
+
+	// TYPES: code, letter, graphic, essay
+
+	{
+		"title": "Far Out Corners Logo",
+		"permalink": "far-out-corners-logo",
+		"image": "/images/letter_faroutcorners.jpg",
+		"images": ["/images/img_faroutcorners.jpg"],
+		"description": "<a href='https://www.facebook.com/faroutcorners' class='link' target='_blank'>Far Out Corners</a> is an indie-rock band based in San Francisco. It can be viewed both horizontally and vertically.",
+		"type": "letter"
+	},
+
+	{
+		"title": "Drop Cap Book Cover",
+		"permalink": "drop-cap-cover",
+		"image": "/images/letter_dropcap.jpg",
+		"images": ["/images/img_book_cover.jpg"],
+		"description": "This is a project for Jessica Hische's <a href='http://skl.sh/jessicah' class='link' target='_blank'>lettering class</a> based on Penguin Drop Caps series. I chose Fyodor Dostoyevsky's Crime and Punishment and the letter 'D' for this project. This cover aims to incorporate the imagery of the axe and the color yellow, which are featured prominently in the novel.",
+		"type": "letter"
+	},
+
+	{
+		"title": "The Fillmore Geofilter",
+		"permalink": "fillmore-geofilter",
+		"image": "/images/letter_fillmore.jpg",
+		"images": ["/images/img_filters.jpg"],
+		"description": "This is a Geofilter for the Fillmore District in San Francisco, activated by Snapchat on Sep 9, 2016. It is inspired by works in the Poster Room at the Fillmore.",
+		"type": "letter",
+		"no_border": "true"
+	},
+
+	{
+		"title": "Everyone Knows",
+		"permalink": "everyone-knows",
+	    "image": "/images/img_everyoneknowsthumb.jpg",
+	    "images": ["/images/img_everyoneknows.jpg"],
+	    "description": "This is a cover for SF-band Far Out Corners' debut single <a class='link' href='http://faroutcorners.bandcamp.com' target='_blank'>Everyone Knows</a>. The illustration is inspired by vintage guitar advertisement posters and psychedelic lettering.",
+	    "type": "graphic"
+	},
+
+	{
+	    "title": "Cambridge Thai Night",
+	    "permalink": "cambridge-thai-night",
+	    "image": "/images/img_thainight.jpg",
+	    "coverImage": "/images/img_thainight_color.jpg",
+	    "id": "img-thainight",
+	    "description": " As the lead designer for this culinary event, I was in charge of designing promotional media tickets and menus. The title lettering was created by modifying Thai alphabets.",
+        "images": [
+	      "/images/img_thainight/full1.png",
+	      "/images/img_thainight/full2.png",
+	      "/images/img_thainight/full3.png",
+	      "/images/img_thainight/full4.png",
+	      "/images/img_thainight/full5.png",
+	      "/images/img_thainight/full6.png"
+    	],
+	    "type": "graphic"
+	},
+
+	{
+		"title": "Sans Comic Sans",
+		"permalink": "sans-comic-sans",
+    	"image": "/images/code_comicsans.jpg",
+    	"images": ["/images/code_comicsans.png"],
+    	"link": "http://mewoph.com/sans-comicsans",
+    	"description": "A fake countdown to the end of Comic Sans",
+    	"type": "code",
+    	"no_border": "true"
+	},
+
+	{
+		"title": "Donkey Express",
+		"permalink": "donkey-express",
+		"image": "/images/letter_donkey.jpg",
+		"coverImage": "/images/img_donkey/full3.jpg",
+		"images": [
+	      "/images/img_donkey/full1.jpg",
+	      "/images/img_donkey/full2.jpg",
+	      "/images/img_donkey/full3.jpg"
+	    ],
+		"description": "These notebooks were printed on tabletop platen press at San Francisco Center for the Book.",
+		"type": "graphic"
+	},
+
+
+	{
+		"title": "Stories and Places",
+		"subtitle": "An Exhibition for UNESCO & Luang Prabang Film Festival",
+		"permalink": "stories-and-places",
+	    "image": "/images/img_unesco.jpg",
+	    "coverImage": "/images/img_unesco_color.jpg",
+	    "id": "img-unesco",
+	    "description": "While interning at UNESCO, I designed 'Stories and Places', an exhibition on Wolrd Heritage Sites on film. It was shown during 2011 Luang Prabang Film Festival.",
+	    "images": [
+	      "/images/img_unesco/full1.png",
+	      "/images/img_unesco/full2.png",
+	      "/images/img_unesco/full3.png",
+	      "/images/img_unesco/full4.png",
+	      "/images/img_unesco/full5.png",
+	      "/images/img_unesco/full6.png"
+	    ],
+	    "type": "graphic"
+	}, 
+
+	{
+		"title": "Olympics Infographics",
+		"permalink": "olympics-infographics",
+	    "image": "/images/img_infographic.jpg",
+	    "id": "img-infographic",
+	    "description": "This is an infographics I created to visualize interesting numbers on the Olympics.",
+	    "images": [
+	      "/images/img_olympic.png"
+	    ],
+	    "coverImage": "/images/img_olympic.png",
+	    "type": "graphic"
+	}
+
+]

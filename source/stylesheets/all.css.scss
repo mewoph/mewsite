@@ -72,9 +72,10 @@ button {
     .name, .title {
       font-weight: $bold-font-weight;
       margin-bottom: $gutter/2;
+      text-transform: uppercase;
     }
-    .name {
-      text-transform: uppercase
+    .title {
+      width: 80%;
     }
     .description {
       margin: $gutter/2 0;
@@ -82,6 +83,9 @@ button {
     .contact-group, .menu-group {
       font-size: $small-font-size;
       margin-bottom: $gutter/2;
+      .link-group {
+        margin-bottom: $gutter/2;
+      }
       .menu-item {
         @include transition(color 0.5s);
         font-weight: $bold-font-weight;
@@ -337,7 +341,7 @@ button {
 
 .design-content {
   background: $true-white;
-  padding: 0 20px 30px 20px;
+  padding: 20px;
   .gallery {
     text-align: center;
   }
@@ -345,6 +349,7 @@ button {
     max-height: 85vh;
     width: auto;
     float: none;
+    display: block;
   }
   .description {
     margin: 20px 0;

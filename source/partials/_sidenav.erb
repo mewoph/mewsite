@@ -3,8 +3,7 @@
   <div class="empty"></div>
   <header class="sidebar">
     <div class="logo-container">
-      <% link = defined?(design_nav) ? '/design' : '/' %>
-      <% link_to(link) do %>
+      <% link_to('/') do %>
         <img src="/images/logo.svg" class="logo">
       <% end %>
     </div>
@@ -28,9 +27,16 @@
           <% end %>
       </div>
       <div class="contact-group social-icons">
-        <% link_to "/cv", target: "_blank" do %>
-          <div class="menu-item resume-menu link">Resume</div>
-        <% end %>
+        <div class="link-group">
+          <% if defined?(design_nav) %>
+            <% link_to "/" do %>
+              <div class="menu-item link">Works</div>
+            <% end %>
+            <% link_to "/cv", target: "_blank" do %>
+              <div class="menu-item link">Resume</div>
+            <% end %>
+          <% end %>
+        </div>
         <% link_to data.me.instagram, target: "_blank" do %>
           <i class="link fa fa-instagram"></i>
         <% end %>

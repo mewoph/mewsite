@@ -1,4 +1,4 @@
-<%= partial "/partials/sidenav", locals: {design_nav: true, title: work.title, description: work.subtitle} %>
+<%= partial "/partials/sidenav", locals: {design_nav: true, title: work.title, description: work.description} %>
 <%= javascript_include_tag "works" %>
 <% has_gallery = work.images && work.images.length > 1 %>
 <article class="design-content">
@@ -21,7 +21,6 @@
 				</div>
 			<% end %>
 		</div>
-		<p class="description"><%= work.description %></p>
 		<% if work.type == "code" %>
 			<% link_to work.link, target: "_blank", class: "cta-link link" do %>
 				View Site<i class="fa fa-chevron-right" aria-hidden="true"></i>
