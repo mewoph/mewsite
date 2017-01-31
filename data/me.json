@@ -13,6 +13,15 @@
   ,
   "education": [
     {
+      "university": "Type@Cooper West",
+      "degree": "10-week Course",
+      "location": "San Francisco, CA",
+      "description": "Principles of Typeface Design",
+      "details": {},
+      "date": "Sep - Dec 2016",
+      "projects": []
+    },
+    {
       "university": "University of Pennsylvania",
       "degree": "Master of Computer and Information Technology",
       "grade": "GPA: 3.53/4.00",

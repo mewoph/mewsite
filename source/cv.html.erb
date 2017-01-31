@@ -46,6 +46,11 @@
             <%= edu.details[detail_type] %>
           <% end %>
         </div>
+        <% if edu.description %>
+          <div class="details">
+              <%= edu.description %>
+          </div>
+        <% end %>
         <ul class="projects">
           <% edu.projects.each do |project| %>
             <li class="project-item"><%= project %></li>

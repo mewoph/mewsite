@@ -112,6 +112,10 @@ button {
       }
     }
   }
+
+  .basic-contact-info {
+    bottom: 50px !important;
+  }
 }
 
 .cv-content {
@@ -137,6 +141,7 @@ button {
       }
       .degree, .position {
         font-style: italic;
+        margin-left: 5px;
       }
       .uni-name, .employer-name {
         font-weight: $bold-font-weight;
