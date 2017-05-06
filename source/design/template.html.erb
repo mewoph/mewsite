@@ -1,4 +1,4 @@
-<%= partial "/partials/sidenav", locals: {design_nav: true, title: work.title, description: work.description} %>
+<%= partial "/partials/sidenav", locals: {design_nav: true, title: work.title, description: work.description, type: work.type} %>
 <%= javascript_include_tag "works" %>
 <% has_gallery = work.images && work.images.length > 1 %>
 <article class="design-content">

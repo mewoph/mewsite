@@ -1,6 +1,6 @@
 // Typography
-$sans-serif: 'CooperHewitt';
-$serif: 'Lora', serif;
+$sans-serif: 'questa-sans';
+$serif: 'questa-sans', serif;
 $base-font-family: $sans-serif;
 $header-font-family: $base-font-family;
 
@@ -15,7 +15,7 @@ $h5-font-size: $base-font-size * 1.25;
 $h6-font-size: $base-font-size;
 $small-font-size: 0.8em;
 $normal-font-weight: 400;
-$bold-font-weight: 500;
+$bold-font-weight: 700;
 
 // Line height
 $base-line-height: 1.5;

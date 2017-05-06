@@ -69,16 +69,24 @@ button {
     display: block;
   }
   .basic-info {
-    .name, .title {
+    .name {
       font-weight: $bold-font-weight;
-      margin-bottom: $gutter/2;
+      margin: 0.5em 0;
       text-transform: uppercase;
+      line-height: 1em;
     }
     .title {
-      width: 80%;
+      width: 100%;
+      margin: 0.5em 0;
+      line-height: 1.2em;
+    }
+    .work-type {
+      font-size: 1em;
+      font-style: italic;
+      font-weight: $bold-font-weight;
     }
     .description {
-      margin: $gutter/2 0;
+      margin: 1em 0;
     }
     .contact-group, .menu-group {
       font-size: $small-font-size;

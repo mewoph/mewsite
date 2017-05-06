@@ -3,115 +3,88 @@
 	// TYPES: code, letter, graphic, essay
 
 	{
-		"title": "Far Out Corners Logo",
-		"permalink": "far-out-corners-logo",
-		"image": "/images/design_thumb/thumb_faroutcorners.jpg",
-		"images": ["/images/img_faroutcorners.jpg"],
-		"description": "<a href='https://www.facebook.com/faroutcorners' class='link' target='_blank'>Far Out Corners</a> is an indie-rock band based in San Francisco. It can be viewed both horizontally and vertically.",
-		"type": "letter"
+		"title": "Touch of Grey",
+		"permalink": "touch-of-grey",
+	    "image": "/images/portfolio_thumb/thumb_touchOfGrey.jpg",
+	    "images": ["/images/portfolio_full/full_touchOfGrey.jpg"],
+	    "description": "This is a lettering of lyrics from the Grateful Dead's Touch of Grey. Rather than making this in the psychedelic style with which the band is mostly associated, I drew inspiration more from heavy metal style.",
+	    "type": "lettering"
 	},
 
 	{
-		"title": "Drop Cap Book Cover",
-		"permalink": "drop-cap-cover",
-		"image": "/images/design_thumb/thumb_dropcap.jpg",
-		"images": ["/images/img_book_cover.jpg"],
-		"description": "This is a project for Jessica Hische's <a href='http://skl.sh/jessicah' class='link' target='_blank'>lettering class</a> based on Penguin Drop Caps series. I chose Fyodor Dostoyevsky's Crime and Punishment and the letter 'D' for this project. This cover aims to incorporate the imagery of the axe and the color yellow, which are featured prominently in the novel.",
-		"type": "letter"
+		"title": "Gray Tolhurst and the Early Nineties Poster",
+		"permalink": "sealion-poster",
+	    "image": "/images/portfolio_thumb/thumb_sealion.jpg",
+	    "images": ["/images/portfolio_full/full_sealion.jpg"],
+	    "description": "This poster is a part of my Marine Mammals Playing Music series, a collection of music promotional materials featuring a marine mammal playing a musical instrument. It is a fairly light-hearted take on rock posters with illustration inspired by Jay Ryan.",
+	    "type": "lettering, illustration"
 	},
+
+	{
+		"title": "Everyone Knows Single Cover",
+		"permalink": "everyone-knows",
+	    "image": "/images/portfolio_thumb/thumb_whale.jpg",
+	    "images": ["/images/portfolio_full/full_whale.jpg"],
+	    "description": "This is a cover for SF-band Far Out Corners' debut single <a class='link' href='http://faroutcorners.bandcamp.com' target='_blank'>Everyone Knows</a>. The illustration is inspired by vintage guitar advertisement posters and psychedelic lettering.",
+	    "type": "lettering, illustration"
+	},
+
+	{
+		"title": "Kombucha Poster",
+		"permalink": "kombucha-poster",
+	    "image": "/images/portfolio_thumb/thumb_kombucha.jpg",
+	    "images": ["/images/portfolio_full/full_kombucha.jpg"],
+	    "description": "This sign was created during the Introduction to Hand Lettering class. It is inspired by grocery store signage. Unlike most grocery store signs, as this is designed by a kombucha skeptic, it is not meant to actually sell kombucha.",
+	    "type": "lettering"
+	},
+
+	{
+		"title": "Far Out Corners Logo",
+		"permalink": "far-out-corners-logo",
+		"image": "/images/portfolio_thumb/thumb_faroutcorners.jpg",
+		"images": ["/images/portfolio_full/full_faroutcorners.jpg"],
+		"description": "<a href='https://www.facebook.com/faroutcorners' class='link' target='_blank'>Far Out Corners</a> is an indie-rock band based in San Francisco. It can be viewed both horizontally and vertically.",
+		"type": "lettering"
+	},
+
+	{
+		"title": "1974 Bar Identity",
+		"permalink": "1974-bar-identity",
+    	"image": "/images/portfolio_thumb/thumb_1974.jpg",
+    	"images": ["/images/portfolio_full/full_1974.jpg"],
+    	"description": "This is a logo for 1974, a fictional bar on Haight Street that only plays disco and psychedelic rock.",
+    	"type": "lettering"
+	},
+
+	{
+		"title": "Sponge Puddle Regular",
+		"permalink": "sponge-puddle-regular",
+	    "image": "/images/portfolio_thumb/thumb_spongepuddle.jpg",
+	    "images": ["/images/portfolio_full/full_spongepuddle.jpg"],
+	    "description": "This is a modulear typeface I created during the Principles of Typeface Design class inspired by Ed Ruscha’s word paintings.",
+	    "type": "typeface design"
+	},
+
 
 	{
 		"title": "The Fillmore Geofilter",
 		"permalink": "fillmore-geofilter",
-		"image": "/images/design_thumb/thumb_filter.jpg",
-		"images": ["/images/img_filters.jpg"],
+		"image": "/images/portfolio_thumb/thumb_geofilters.jpg",
+		"images": ["/images/portfolio_full/full_geofilters.jpg"],
 		"description": "This is a Geofilter for the Fillmore District in San Francisco, activated by Snapchat on Sep 9, 2016. It is inspired by works in the Poster Room at the Fillmore.",
-		"type": "letter",
+		"type": "lettering",
 		"no_border": "true"
-	},
-
-	{
-		"title": "Stories and Places",
-		"subtitle": "An Exhibition for UNESCO & Luang Prabang Film Festival",
-		"permalink": "stories-and-places",
-	    "image": "/images/design_thumb/thumb_unesco.jpg",
-	    "coverImage": "/images/img_unesco_color.jpg",
-	    "id": "img-unesco",
-	    "description": "While interning at UNESCO, I designed 'Stories and Places', an exhibition on Wolrd Heritage Sites on film. It was shown during 2011 Luang Prabang Film Festival.",
-	    "images": [
-	      "/images/img_unesco/full1.png",
-	      "/images/img_unesco/full2.png",
-	      "/images/img_unesco/full3.png",
-	      "/images/img_unesco/full4.png",
-	      "/images/img_unesco/full5.png",
-	      "/images/img_unesco/full6.png"
-	    ],
-	    "type": "graphic"
-	}, 
-
-	{
-		"title": "Everyone Knows",
-		"permalink": "everyone-knows",
-	    "image": "/images/design_thumb/thumb_whale.jpg",
-	    "images": ["/images/img_everyoneknows.jpg"],
-	    "description": "This is a cover for SF-band Far Out Corners' debut single <a class='link' href='http://faroutcorners.bandcamp.com' target='_blank'>Everyone Knows</a>. The illustration is inspired by vintage guitar advertisement posters and psychedelic lettering.",
-	    "type": "graphic"
 	},
 
 	{
 		"title": "Sans Comic Sans",
 		"permalink": "sans-comic-sans",
-    	"image": "/images/design_thumb/thumb_comicsans.jpg",
-    	"images": ["/images/code_comicsans.png"],
+    	"image": "/images/portfolio_thumb/thumb_comicsans.jpg",
+    	"images": ["/images/portfolio_full/full_comicsans.png"],
     	"link": "http://mewoph.com/sans-comicsans",
     	"description": "A fake countdown to the end of Comic Sans",
-    	"type": "code",
+    	"type": "graphic design",
     	"no_border": "true"
-	},
-
-	{
-	    "title": "Cambridge Thai Night",
-	    "permalink": "cambridge-thai-night",
-	    "image": "/images/design_thumb/thumb_thainight.jpg",
-	    "coverImage": "/images/img_thainight_color.jpg",
-	    "id": "img-thainight",
-	    "description": " As the lead designer for this culinary event, I was in charge of designing promotional media tickets and menus. The title lettering was created by modifying Thai alphabets.",
-        "images": [
-	      "/images/img_thainight/full1.png",
-	      "/images/img_thainight/full2.png",
-	      "/images/img_thainight/full3.png",
-	      "/images/img_thainight/full4.png",
-	      "/images/img_thainight/full5.png",
-	      "/images/img_thainight/full6.png"
-    	],
-	    "type": "graphic"
-	},
-
-	{
-		"title": "Donkey Express",
-		"permalink": "donkey-express",
-		"image": "/images/design_thumb/thumb_donkey.jpg",
-		"coverImage": "/images/img_donkey/full3.jpg",
-		"images": [
-	      "/images/img_donkey/full1.jpg",
-	      "/images/img_donkey/full2.jpg",
-	      "/images/img_donkey/full3.jpg"
-	    ],
-		"description": "These notebooks were printed on tabletop platen press at San Francisco Center for the Book.",
-		"type": "graphic"
-	},
-
-	{
-		"title": "Olympics Infographics",
-		"permalink": "olympics-infographics",
-	    "image": "/images/design_thumb/thumb_infographic.jpg",
-	    "id": "img-infographic",
-	    "description": "This is an infographics I created to visualize interesting numbers on the Olympics.",
-	    "images": [
-	      "/images/img_olympic.png"
-	    ],
-	    "coverImage": "/images/img_olympic.png",
-	    "type": "graphic"
 	}
 
 ]
